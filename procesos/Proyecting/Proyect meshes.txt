@@ -1,0 +1,29 @@
+
+
+
+(proyectar una mesh, de alta resolución y detalle realizada en dynamesh, en una mesh elaborada en low_poly y con uvs, para su uso en producción)
+
+Tutorial: Dynamesh projection: https://www.youtube.com/watch?v=j7NM86ift94
+
+
+1_colocamos como sub_tool superior, la mesh, en alta resolución en  el panel de sub_tools
+
+2_colocamos como sub_tool inferior ó posterior la mesh, en baja resolución a cuál deseamos transferir el alto detalle de la mesh, en alta resolución
+
+3_a la mesh, en baja resolución le aumentamos su nivel de sub_divisiones, yendo al panel "Tool/Geometry" shortcut (Control+D), colocar el mayor nivel de sub_división posible de 7 a 9
+
+4_debemos superpones ambas meshes, al hacer esto debemos hacer coincidir en los más posible ambas formas, incluso ajustando ó modificando la mesh, en baja resolución para así, 
+
+hacer coincidir ambas formas en lo máximo posible para facilitar el proyección entre ambas formas en la distancia y tolerancia
+
+5_ahora con la mesh, en alta resolución seleccionada vamos ha "Tool/Sub_tool/Proyect/ProyectAll", para así, proyectar el detalle de la mesh, en alta resolución en la mesh, de baja resolución
+
+	5.1_opciones del panel "Proyect"
+
+		5.1.1_Dist: se refiere a la distancia de escaneo, por esto es muy importante hacer coincidir ambas formas para un distancia constante entre las partes
+
+		5.1.2_Mean: se refiere a la tolerancia del desplazamiento
+
+6_las partes defectuosas de una proyección se pueden corregir haciendo nuevas proyecciones haciendo uso de máscaras invertidas para así, dejar solo al descubierto la zona a la cuál deseamos aplicar 
+
+una nueva proyección mientras resguardamos la zona en la cuál ya proyectamos y estamos conformes

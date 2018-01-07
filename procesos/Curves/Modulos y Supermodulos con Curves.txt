@@ -1,0 +1,62 @@
+
+(modular una mesh conviertiéndola en una Brush, para crear así cadenas, módulos y super módulos, al aplicar la nueva brush creada)
+
+
+Tutorial: Make braided rope in Zbrush: https://www.youtube.com/watch?v=3rLugNbZnj4
+
+
+1_creamos el módulo (mesh), este debe coincidir en su parte inferior y su parte superior, en forma de loops, 
+
+para que así, coincida al repetirse una y otra vez,
+
+
+es conveniente duplicar la mesh, y colocarla una arriba de la otra para ver y modificar así, la longitud de esta 
+
+hasta que la parte final de la misma coincida con la parte inicial de la misma
+
+
+2_luego con la mesh, módulo que hemos creado, vamos al menú "Brush/ y aplicamos (Create Insermesh)", en el protocolo 
+
+de creación le indicamos "Yes", shortcut "Shift+F2", 
+
+
+así, habremos creado una "Brush", especial con la mesh, módulo que habíamos creado previamente
+
+
+3_en este punto ya podemos hacer right+click, en el camvas con nuestra nueva Brush, creada y aplicar unitariamente 
+
+la la mesh cargada en la brush, pero para aplicar la mesh, modularmente debemos
+
+
+activar las opciones de Curve Mode, para esto vamos al menú "Stroke/Curves/Curve Mode", shortcut "Shift+F3", ó "Alt+F", 
+
+ó Alt+1, así, ya podremos aplicar el mesh, módulo de forma modular ó proyectada
+
+
+a través del modo de creación por splines ó Curve Mode
+
+
+4_es preciso modicar las opciones de aplicación del modo "Curve Mode", para así, tener un control absoluto 
+
+del comportamiento del módulo y del supermódulo en su comportamiendo consecutivo en la creación sobre el spline:
+
+
+para activar estas opciones debemos ir al menú "Brush/Modifier/", shortcut "Shift+F2", ó Alt+B
+
+
+	4.1_Stretch: permite ajustar la mesh, módulo sobre la spline, mejorando el comportamiento de la forma resultante
+
+
+	4.2_Overlap: permite super poner ó intercalar la forma módulo con la forma módulo siguiente en crearse, permitiendo 
+
+	así, generar un efecto de cadena ó concatenación, creando así, nuevas formas resultantes
+
+
+	4.3_Tri Parts: es conveniente activar esta opción generalmente, aunque especificamente se utiliza para cuando 
+
+	tenemos componentes modulares conformados hasta por 3, polygroups
+
+
+	4.4_Weld Point: permite fusionar vertex cercanos en los extremos de los módulos generados permitiendo así, crear 
+
+	formas nuevas sin costuras ni separaciones

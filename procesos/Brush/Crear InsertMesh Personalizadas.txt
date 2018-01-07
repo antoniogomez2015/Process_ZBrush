@@ -1,0 +1,21 @@
+
+
+BRUSH
+
+	crear inset mesh personalizadas
+
+
+		1.creamos, editamos y activamos nuestra mesh a utilizar como nueva brush
+
+		2.para convertir la mesh que hemos creado debemos ir a al menú contextual de la brushes haciendo uso 
+
+		del icon de brushes ó con el comando "B"
+
+		3.en el menú contextual clickamos en botón "Create InsertMesh", y se creará un inserbrush con nuestra 
+
+		mesh y se activará para ser usada
+
+		4.para personalizar el icono de las brush vamos al menú/Brush/SelectIcon, click+Alt, ésta acción tomará 
+
+		ins instantanea de nuestra mesh y la usará como icon
+	

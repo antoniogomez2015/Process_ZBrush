@@ -1,0 +1,11 @@
+
+
+TRNASPOSE
+	
+	1.para activar el modo Transpose lo hacemos con el comando "W"
+	2.para aplicar Transpose hacemos click+Draw sobre el objeto ó mesh, también si hacemos click en el punto ó sub-elemento que deseamos se proyecte el transpose  automáticamente
+	3.si hacemos click+Draw+Control crearemos una máscara en sentido del draw ó transpose
+	4.si proyectamos el Transpose haciendo click en una parte de la mesh y luego hacemos Click+Control+Draw, crearemos un instancia ó copia de la mesh
+	4.si con la mesh parcialmente enmascarada hacemos draw+Control para accionar el traspose, lograremos el efecto de extrusión de geometria lineal
+	5.si con la mesh parcialmente enmascarada hacemos draw+Control+Alt para accionar el traspose, lograremos el efecto de extrusión de geometria lineal y ésta se creará como nuevos poligrupos
+	6.si con la mesh parcialmente enmascarada hacemos draw+Control en uno de los extremos del Transpose para accionar el traspose, lograremos dividir la geometria en dos partes, una la enmascarada y la otra parte no enmascarada

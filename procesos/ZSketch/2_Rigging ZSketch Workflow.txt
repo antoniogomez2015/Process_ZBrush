@@ -1,0 +1,49 @@
+
+
+Rigging ZSketch WorkFlow
+
+
+
+	_para crear un sistema con el cuál poder modificar el sistema de sketches, primero tenemos que crear un 
+
+	sistema de "ZSphere", símil en su morfología ya que ésta es la que le permitirá modificar la morfología
+
+	del sistema de zketches
+
+
+	1_priemero debemos tener ya hecho ó realizado un sistema de zketch, creado, así, estando en el modo de 
+
+	edit - zsketch, "Shift + A"
+
+
+	2_luego hacemos "append", de una ZSphere, nueva a la escena, esta lo colocamos en la mitad ó centro del modelo
+
+	ó arquetipo realizado a través, del sistema de zsketch
+
+
+	3_luego debemos crear "bones/joins", con "zspheres", del arquetipo hecho con zsketch, así, las zspheres,
+
+	serviránde "skeleton", controlador
+
+
+	_ahora seleccionamos al eskeleton que hemos creado con zspheres, y vamos ha "Tool/ZSketch/", y activamos
+
+	el modo de edición "Bind", a través, del cuál, podremos entrar ahora en el modo de "Move", shorcut "W", 
+
+	para mover así, el skeleto que hemos creado en las secciones deseados, esto nos permitirá mover de forma
+
+	colateral ó riggiada el sistema de "ZSketch", también, para esto disponemos de los siguientes paneles
+
+	"Shift + Z", y "Alt + Z"
+
+
+
+Procesar:
+
+
+	_luego de haber riggiado nuestro personaje a la posición deseado debemos hacer "unified Skin/",
+
+	"Make unified Skin"
+
+
+

@@ -1,0 +1,62 @@
+
+
+RETOPOLOGIA
+	
+	Modalidad Topology
+
+	1.cargamos la mesh a utilizar y la activamos
+	2.cargamos una ZSphere y la activamos
+	3.con la ZSphere Activada vamos al menú/Tool/Rigging/Select mesh, y seleccionamos la mesh que queremos topologizar
+	4.la ZSphere la utilizaremos como pivot point, la ZSphere la escalamos y llevamos al centro la mesh
+	4.ahora para comenzar como topología de la mesh vamos al menú Tool/Topology/Edit Topology, la ZSphere desaparecerá y podremos topologizar nuestra mesh
+	5.para crear vertices y huesos ó aristas activamos la opción de creación "Draw", es recomendable uzar simetría para una creación más perfecta
+	6.con click izquierdo podemos empezar a crear punto que en su extensión conformarán aristas y polígonos
+	7.con el modo de edición "Mode", podemos mover y ajustar los vertices y aristas sobre la maya que vamos creando
+	8.para terminar una cadena de creación de vertices y aristas debemos hacer click en el canvas para volver a comenzar a crear en otro segmento de la mesh
+	9.para eliminar vertices y aristas debemos utilizar Alt+left+Click
+	10.para previzualizar el presultado de la maya resultante optenida por la topologización accdemos con el comando "A"
+	11.el criterio de creación de nodos ó vertices es libre y un vertice puede unirse con otros para crear aristas y polígonos, así como si con un vertice
+	nos desplazamos sobre una arista y hacemos left click, crearemos otro vertice en ese punto dividiendo la arista en la cual nos posamos para crear el vertice, creando así dos aristas más
+	12.para optener el la maya resultante y poder editarla y trabajar con ella devemos aplicar "Adaptative Skin"
+
+	MOdalidad de proyección
+	
+	1.cuando hemos creado un modelo conseguido a través del método Topology ó sismilar podemos proyectarlo sobre la mesh que tomamos de referencia para tranferirle esa topología
+	2.para transferir la topologia creada a nuestro modelo original debemos abrir el modelo original y Append la mesh con el Topology que creamos
+	3.la mesh con la Topology que creamos debemos subirla sobre la mesh ó maya original en el menú de sub-tool
+	4.la mesh con la Topology podemos subdividirla ó no si así lo requerimos, para el proceso deben estar artivas ambas mesh en el menú sub-tool
+	5.seleccionamos la mesh a la cuál desemos transferir la Topología y vamos al menú/Tool/Sub-Tool/Proyect
+	6.aplicamos la proyección Proyect/Proyect All, y será trasferida la forma de la topología a la mesh orignal en el grado deseado
+
+	Modalidad Brush-Topology
+
+	1.para aplicar esta brush la mesh a la cuál deseamos aplicar la topología no debe de tener niveles de subdivisión
+	2.para aplicar trayectos de topología debemos hacer Left+Click+Draw
+	3.para borrar trayectos sebemos pasar encima ó sobre los trayectos creados con Alt+Left+Click+Draw
+	4.el "size", de la brush condiciona la resolución ó cantidad de puntos desjados en la trayectoria en el recorrido de la brush, así como la capacidad de ajustarse a la mesh original
+	5.es recomendable activar la opción curva del menú Stroke/Curve/Curve Mode - Snap	
+	6.debemos hacer intercepciones de trayectos de la brush sobre la mesh original para generar polígonos y puntos de intercepción
+	7.la creación de vertices con la Control+Left+Click, permite la creación de vertices solo sobre vertices ya creados 	
+	8.la topología se crea cuando tres ó cuatro puntos ó vertices se encuentran
+	9.para borar todos los vertices de trayectos que no conformen polígonos debemos hacer Alt+Left+Click+Draw sobre la mesh original ó proxi
+	10.para crear trayectorias con la opción de edge loops debemos hacer Left+Click+Draw, extendiendo el trayecto hasta el canvas y soltando allí, así se creará un loops sobre la mesh original
+	11.para borrar todos los vertices y trayectos así como los polígonos y geometría creada vamos al menú Stroke/Curve Functions/Delete 
+	12.para suavisar trayectos debemos ir al menú Stroke/Curve Functions/Smooth - Smoothness
+	13.podemos ajustar la capacidad de las brush de ajustarse a los vertices de la mesh original para hacer un mejor seguimiento de la misma
+	para esto vamos al menú Stroke/Curve Modifiers/Curve Snap Distance, allí podremos ajustar a un valor deseado
+	14.para hacer un preview de la maya resultante de la topología debemos hacer Left+Click sobre la mesh original ó proxi, el grosor de la mesh resultante dependerá del "size", de la brush
+	15.paa obtener la maya resultante y poder editarla, con la maya previsualizada debemos ir al menú Tool/SubTool/Split/Groups Split ó Split to parts
+	creiterio de Topology
+		1.PreSubdiv: permite indicar la cantidad de subdivisiones para la previsualización de la mesh resultantes
+		2.TipoSmoothness: indica la cantidad suavisado de la maya resultante
+		3.Max Strip Lenght: permite indica el criterio de la cantidad de vertices por polígonos en la mesh resultantes, por ejemplo, polígonos de 3 - 4 - 5 - 6 caras, otros
+		4.Skin Thickness: permite indicar el grosor ó espesos de la maya resultante
+	
+	Modalidad Remesh
+
+	1.esta modalidad permite remuestrear una mesh con los parámetro que le indiquemos para aumentar ó reducir geometría deseada
+	2.la mesh a transformar no debe de tener niveles de subdivisión
+	criterios de la modalidad Remesh:
+		1.Res: este valor permite indicar la candidad de resolución ó cantidad de geometría deseada, ejemplo: 16 -32 -64 - 128 - 256, otros
+		2.Polist. hace referencia al suavizaso y perdida de detalle ó capacidad de conservar el detalle, valores cercanos a cero conservan el detalle
+		3.Polygr: permite conservar polygroups creados en la mesh y contempla como guía para la creación de la maya resultante

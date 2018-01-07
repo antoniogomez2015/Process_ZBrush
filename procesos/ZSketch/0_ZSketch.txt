@@ -1,0 +1,47 @@
+
+
+ZSKETCH Proceso:
+
+
+	1_un requerimiento impresindible para creación con ZSketch es la existencia de ZSphere en nuestra herramienta
+
+	2_existen dos formas de activar ZSketch, 1.Shift+A  2.menu Tool/ZSketch/EditSketch 
+
+	3_la creación de ZSketch usa la forma de la ZSpheres como base ó punto de partida para la creación de geometría
+
+	4_las condiciones y características expresadas anteriomente aplican ZSketh a arquetipos hechos con ZSphere
+
+	5_para crear líneas rectas draw; luego pulsamos Shift+Alt
+
+	6_para ver preview de la nueva geometría creada con ZKetch, ésto lo hacemos con el comando "A"
+
+	7_para utilizar la geometría creada con ZSketch, debemos aplicar Unified Skin
+
+
+
+	Aplicación de ZSkecth a una mesh existente:
+
+
+	1_con una mesh poligonal activada append una ZSphere, seleccionamos la ZSphere y activamos ZSketch con Shft+A
+
+	2_ahora podemos utilizar la forma de la mesh activada como proxi de la forma a seguir para la creación nueva de ZSketch
+
+	3_la opción deln menú Tool/ZSketch/Bind, permite hacer rigging de las partes de las ZSpheres de trazos de ZSketch creados
+
+	4_para utilizar la geometría creada con ZSketch, debemos aplicar Unified Skin
+
+
+
+	Criterios para Unifield Skin
+
+		1_SDiv: permite configurar la cantidad de geometría en la maya resultante
+
+		2_Resolution: se refiere a la cantidad poligonal que podemos delimitar para la mesh resultante
+
+		3_Smooth: se refiere a la transición que permite suavisar la maya en relación a la resolución
+
+		4_Polish Surface: permite suavisar la mesh, sacrificando detalle del ZSketches por estilismo
+
+		5_Border:permite crear Edge Loops entre los polygroups por el espesor que le indiquemos
+
+		6_Allow Tri: permite la creación triángulos poligonales en la maya resultante

@@ -1,0 +1,15 @@
+
+
+
+SHADOWBOX
+	Creación de hard geometry con Shadowbox
+	Para abrir Shadowbox: 1.en el lightbox/Tools/ShadowBox 128 y 64 2.con una mesh activada menú Tool/Geometry/ShadoBox
+
+1.la geometría se construye en un nodo en forma de curbo con tres caras visibles, cada cara se comporta como polygroups
+	
+	Criterios de ShadowBox
+		1.la textura que muestra la podemos aditar, asignar como una textura
+		2.Resolution: este valor permite configurar la cantidad de resolución ó definición de la maya resultante
+		3.Polish: configura la acutancia y suavidad entre planos gradados de la forma de las proyecciones entre los planos
+		4.para crear proyecciones sobre cada plano del cubo se utilizan máscaras, se pueden crear con pinceles, lazos, formas, otros
+		5.para cerra ShadowBox y poder editar normalmente la maya: apagamos ShadowBox en menú Tool/Geometry/ShadoBox

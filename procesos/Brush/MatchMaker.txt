@@ -1,0 +1,16 @@
+
+
+BROCHAS
+
+	MATCHMAKER
+
+
+	1.append una maya dentro de otra y las colocamos contiguas quedando la que deformará y la deformada
+
+	2.colocamos la camara en la vista frontal axonométrica usando Shift, la maya a deformar debe de quedar 
+
+	sobre la maya deformadora
+
+	3.con la mesh a deformar seleccionada haces click en el centro de la mesh and draw aplicando la deformación 
+
+	en base a la mesh deformadora

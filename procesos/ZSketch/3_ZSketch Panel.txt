@@ -1,0 +1,43 @@
+
+
+ZSketch Panel:
+
+
+	_Edit SKetch:
+
+		_esta opción nos permite entrar en el modo de edición de sketch
+
+
+	_Show Sketch:
+
+		_esta opción nos permite mostrar los sketches, ante las zspheres
+
+
+	_Min Dist:
+
+		_esta opción nos permite graduar la distancia ó fluidéz, de la creación de szketches,
+
+		a través de la serie de zspheres, creada de forma progresiva
+
+
+	_Optimize:
+
+		_esta opción permite eliminar la sketches, que permanecen ocultas dentro de las demás
+
+		sketches y del modelo proxi
+
+
+	_Bind:
+
+		_esta opción nos permite "riggingiar", un sistema de sketches, a través de un sistema de zspheres
+
+
+	_SoftBind:
+
+		_esta opción nos permite hacer un suavisado general
+
+	
+	_reset Bindind:
+
+		_reset general
+

@@ -1,0 +1,121 @@
+
+
+
+Z - Modeler Workflow Digital Tutors
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+activar z - modeler:
+
+ 
+	en la configuración:
+
+
+			_ "ZBrush Configuracion 4R7_Pro8.cfg"
+
+			_ "ZBrush 4R7 Pro8 Hotkeys.TXT"
+
+
+	
+	Control + Shift + Z
+
+
+
+NOTE:
+
+	procure no tener activada la opción de LaxyMouse: (F12), ó Alt + B
+
+
+------------------------------------------------------------------------------------------------
+
+
+para activar el menú contextual de opciones:
+
+
+
+	_opción no sostenida:
+	
+		_hacemos "mouse right click, sobre un sub-elemento de las mesh, deseada"
+
+
+	_opción sostenida:
+
+		_ó hacemos "spacebar, sobre un sub-elemento de la mesh, deseada"
+
+
+
+------------------------------------------------------------------------------------------------
+
+
+
+Workflow General:
+_________________
+
+
+
+
+	Direccionales:
+	______________
+
+
+	_al posarnos sobre un face, aparecerá una línea naranja con una dirección (Up/Down/Left/Right),
+
+	estas opciones son útiles cuando tenemos activadas las opciones "Targets" de "Loops", otros
+
+	por que así, podremos indicar la dirección ó sentido hacia donde deseamos crear el nuevo loop,
+
+	de extrusión u otros
+
+
+
+	Opciones de extrusion:
+	______________________
+
+
+	_extruir "Post" Alt:
+
+		_permite crear "Polygroups", en las formas creadas
+
+
+	_extruir "Post" Control:
+
+
+		_permite extraer faces, extruidas aislandolas del resto de geometría más en el mismo
+
+		sub-tool
+
+
+	_extruir "Post" shift:
+
+		_esta opción extiende el alcance de "Q-Mesh", hacia los sub-elemtos contiguos de los
+
+		sub-elementos extruidos
+
+
+		esto permite proyectar nuevas geometrías creadas a través, de otras geometrías
+
+
+
+	Opciones para crear nuevos Polygroups:
+	______________________________________
+
+
+	1_Polygroups Free: hacemos "mouse left click + alt", sobre las faces, deseadas para así, convertir esa serie 
+
+	en un nuevo polygroup
+
+
+	2_Polygroup Loop: 
+
+
+		_Polygroup Action: "Polygroup"
+
+
+		_Target: "Polyloop"
+
+
+		_Aplicación: "Mouse (Up/Down/Left/Right), left click + Alt", para nuevos polygroups

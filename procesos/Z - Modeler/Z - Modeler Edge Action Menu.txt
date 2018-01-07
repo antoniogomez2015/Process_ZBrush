@@ -1,0 +1,200 @@
+
+
+
+Z - Modeler Workflow Digital Tutors
+
+
+	EDGE ACTIONS
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Target Sectión:
+_______________
+
+
+	1_Multiple EdgeLoops:
+
+		_esta opción permite extender las opciones de creación ej: al crear un loops, podríamos
+
+		al hacer "mouse left click", más (Up/Down, arrow), para agregar más edges-loops, contiguos
+
+		al creado inicialmente ó de forma simple ó single, por defecto
+
+
+	2_Single EdgeLoop:
+
+		_esta opción permite agregar geometría de forma predeterminada por la opción seleccionada
+
+		por ejemplo: un "loops"
+
+
+	
+------------------------------------------------------------------------------------------------	
+
+
+
+------------------------------------------------------------------------------------------------
+
+
+Z - Modeler Polygon Actions Options:
+____________________________________
+
+
+
+	1_Add to Curve:
+
+		_
+
+
+	2_Align:
+
+		_
+
+
+	3_Bevel:
+
+		_
+
+
+	4_Bridge:
+
+		_
+
+
+	5_Close:
+
+		_
+
+
+	6_Collapse:
+
+		_
+
+
+	7_Crease:
+
+		_
+
+
+	8_Delete:
+
+		_
+
+
+	9_Do Nothing:
+
+		_
+
+
+	10_Extrude:
+
+		_
+
+
+	11_Insert:
+
+		_esta opción permite agregar "Edges-loops", tanto de forma "single", como en "multi-loops",
+
+		dependiendo de la opción seleccionada en el target options
+
+
+	12_Inset:
+
+		_
+
+
+	13_Mask:
+
+		_
+
+
+	14_Move:
+
+		_
+
+
+	15_Move Auto Radius:
+
+		_
+
+
+	16_Move Brush Radius:
+
+		_
+
+
+	17_Move Infinite Radius:
+
+		_
+
+
+	18_Polygroup:
+
+		_esta opción permite la posibilidad de no extruir si no, de crear polygroups, en diferentes
+
+		criterios como por ejemplo "target-(Polyloop)"
+
+
+	19_Q Mesh:
+
+		_esta es la modalidad que permite hacer extrusiones sumando la geometría más contigua
+
+		tomando en cuenta los sub-elementos vertex, edges y faces, más las opciones de snaps,
+
+		esta opción es especialmente útil para crear formas complejas ya que permite incrementar
+
+		las formas existentes y crear otras como un todo
+
+
+		_también, en sentido contrario ó en oposición al sentido de la extrusión esta opción
+
+		permite eliminar ó suprimir extrusiones existentes, esta opción es especialmente útil
+
+		para refinar modelados y extrusiones previas existentes
+
+
+	20_Scale:
+
+		_
+
+
+	21_Slide:
+
+		_
+
+
+	22_Spin:
+
+		_
+
+
+	23_Split:
+
+		_
+
+
+	24_Stitch:
+
+		_
+
+
+	25_Swivel:
+
+		_
+
+
+	26_Transpose:
+
+		_
+
+
+	27_Unweld:
+
+		_
+
+
+

@@ -1,0 +1,54 @@
+
+
+GEOMETRY
+
+
+	Panel Loops
+
+
+	panel loops es indicado para división de geometría a través de grupos con caracteísticas de bavel y evolución 
+
+	en la misma mesh para poder aplicar panel loops es preciso convertir esas partes primero en Polygroups antes 
+
+	de aplicar el efecto 
+
+
+
+	criterios de panel loops:
+
+
+		1.Loops: indica la cantidad de segmentos creados en la extrución
+
+
+		2.Double: permite indicar si el resultado contendrá dobles caras de requerirlo la extrusión
+
+
+		3.Thickness: indica la cantidad ó proyección de la extrusión
+
+
+		4.Polish: indica suavisado y transición ó armonía del resultado (recomendado)
+
+
+		5.Ignore Group: esta opción inabilita la herramienta al hacer ignorar los líneas de cortes de los grupos
+
+
+		6.Regroup Panel: esta opción permite redibujar los los grupos existenten al aplicar el resultado de la 
+
+		extrusión
+
+
+		7.Regroup Loops: esta opción permite redibujar los loops resultantesal aplicar el resultado 
+
+		de la extrusión
+
+
+		8.Bavel: permite configurar la separación ó distancia de las partes de geometría resultante
+
+
+		9.Elevatión:
+
+
+
+
+
+

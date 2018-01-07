@@ -1,0 +1,210 @@
+
+
+1_esta es ruta de donde se han extraido las brushes extras:
+	
+	"C:\Program Files (x86)\Pixologic\ZBrush 4R7\ZBrushes"
+
+2_se han compilado todas las brushes, importantes en una sola carpeta para su fácil translado; en: 
+
+	"Brushes\Extras dentro dentro de Zbrush"
+
+
+3_el contenido de la carpeta "Brushes\Extras dentro dentro de Zbrush", debe pegarse en la carpeta:
+
+	"C:\Program Files (x86)\Pixologic\ZBrush 4R7\ZData\BrushPresets"
+
+	
+
+
+
+
+___________________________________________________________________
+
+Brush:
+
+	Flatten:
+
+		_Flatten B
+		_FlattenFinish
+		_FlattenLine
+
+
+	Noise:
+
+		_noise03
+		_noise01
+		_noise04
+		_noise02
+		_noise06
+
+	Ram:
+
+		_ram
+
+
+	Trim:
+
+		_trimDynamicC
+		_trimDynamicSoft
+		_trimHole
+		_TrimArc
+		_trimDynamicSliver
+		_trimDynamicTrails
+		_trimNormal
+		_trimDynamicB
+		_trimDynamicSliverB
+		_trimFromt
+		_trimSmoothBorder
+
+
+	ZSketch:
+
+		_flush
+		_fuse
+		_sketch
+		_bulge&fush
+		_flushDynamic
+		_pushPull
+		_Sketch B
+		_float
+		_fluResize
+		_sketch 2
+		_sketch C
+
+
+	Form:
+		_formXtaSoft
+		_formBrush
+		_formXtraSoft2
+		_formSoftB
+		_formXtraSSoft3
+
+
+	Morph:
+		_morphLine
+
+	
+	Nudge:
+		_nudgeSilver
+
+
+	Planar:
+
+		_planarCutMed
+		_planarCutThin
+		_planarLine
+		_planarPath
+		_planarSpline
+		_planarCut
+		_planarCutShadow
+		_planarFlatten
+		_planarLineCut
+		_planarPathCut
+		_plabarSplineCut
+		_planarCutDeep
+		_planarCutThin
+		_planarFlattenLine
+		_planarLineThin
+		_planarRect
+
+
+	Smooth:
+
+		_smooth parts
+		_smooth subdiv
+		_smoothDirection
+		_smooth crease
+		_smooth perpendicular
+		_smooth valance
+		_smoothPeaks
+		_smooth Groups
+		_smooth35
+		_smoothValleys
+
+
+	Clay:
+
+		_clayFinishC
+		_clayPolish
+		_clayTubesSilver
+		_Gouge
+		_clayFinish
+		_clayFinishSoft
+		_claySpin
+		_fracrtureB
+		_rakeline
+		_clayFinishB
+		_clayLine
+		_clayTubesLine
+		fracrtureC
+
+
+	Displace:
+
+		_displaceLine
+
+		
+	Groom:
+		_groomClumpsSpray
+		_groomHairBallStrong
+		_groomTwist
+		_groomMagnet
+		_gromColorize
+		_groomHairTip
+		_groomTwister2
+		_groomBlower2
+		_groomFastLengt
+		_groomSpiral
+		_groomTwistSlow
+
+
+	mallet:
+		_malletFast2
+		_mallet
+		_malletFast
+
+
+	Move:
+		_move2
+		_move parts
+		_moveRing
+		_move topoElastic
+		_moveThin
+
+
+	Polish:
+		_polishC
+		_polishMed
+		_mPolish
+		_polishD
+		_polishOld
+		_polishB
+		_polishHard
+		_polishSoft
+
+
+	Slash:
+		_slash3Line
+		_slash1
+		_slash2
+
+
+
+	Standard:
+		_standardLine
+		_dam_standard
+		_standardRidge
+		_standard31
+
+
+
+
+
+
+
+	
+
+		
+		
+	
+		

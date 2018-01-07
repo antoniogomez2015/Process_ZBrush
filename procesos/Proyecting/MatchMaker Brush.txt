@@ -1,0 +1,30 @@
+
+
+(para proyectar la morfología de una mesh, proyectada en una de sus vista, sobre otra mesh, para que así, 
+
+la mesh, proyectada adopte la forma de la mesh, en la cuál fué proyectada), como un especia de modificador tipo "Bend", generalizado en la mesh resultante,
+
+para que así, la mesh, resultante pueda señirse a la mesh en la cuál fué proyectada, al ser la mesh, resultante una copia en su morfología más aparente
+
+
+Tutorial: ZBrush 4 - MatchMaker Basics: https://www.youtube.com/watch?v=C9W8CWUZdqw
+
+
+
+1_colocamos la mesh, en la cuál se hará la  proyección ó servirá de proxi, la colocaremos en la parte superior del panel sub_tool (es indistinto la posición de las sub_tools)
+
+2_la mesh, a la cuál se le aplicará la deformación a través de la proyección, la colocaremos posterior ó como capa segunda en el panel de sub_tool (es indistinto la posición de las sub_tools)
+
+3_lo más importante es colocar la mesh, a la cuál deseamos aplicar la deformación a través de la proyección con la mesh, proxi, por delante en el espacio ó camvas
+
+4_y a continuación seleccionamos la Brush "MatchMaker", shortcut "B", luego "M", luego "M"
+
+5_luego ubicamos una vista perpendicular entre ambas formas entre las cuales deseamos hacer la proyección, por lo general es la vista frontal,
+
+para colocalar lo más sencillo es orbitar + "Shift", así ajustaremos la vista exacta que más se ajuste a la proyección deseada
+
+6_posterior mente debemos seleccionar a la mesh, a la cuál deseamos aplicar la deformación a través de la mesh, proxi
+
+7_por último, hacemos "right+click", con la brush "MatchMaker", sobre las meshes, ya alineadas en la vista determinada para así, deformar la mesh,
+
+que se enuentra por encima ó superior a la otra mesh, que hace de proxi

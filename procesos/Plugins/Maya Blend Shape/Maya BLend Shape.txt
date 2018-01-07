@@ -1,0 +1,110 @@
+
+
+
+	Maya Blend Shape
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+General:
+________
+
+	_éste plugins, nos permige crear y gestionar versiones de nuestro motivo ó character, los cuales deseamos 
+
+	convertir en archivos obj, para el proceso de blend shape, en autodesk maya
+
+
+	_de ésta manera, éste plugins, hace uso del panel nativo de "Layers", el cuál, permite naturalmente tanto layers,
+
+	de deformación en el proceso de modelado como también, layers, en el proceso de texturizado ó "polypaint"
+
+
+
+Maya Blend Shape Plugins:
+_________________________
+
+
+	Create:
+	_______
+
+	_primero debemos abrir el panel del plugins maya blend shape, en el cuál, debemos de darle a la opción de
+
+	"New Layer", para que así, en el panel nativo "Layer", se cree una nueva layer, la cuál, estará controlada por
+
+	el sistema del plugins maya blend shape
+
+
+	_de ésta manera, podremos comenzar ha deformar la mesh, de la maya hasta obtener la "pose", del character deseada
+
+	ó "staging"
+
+
+	_así, como también, dispondremos de las opcionse normales del panel nativo de layer, en las cuales podremos
+
+	duplicar layer, mover y demás opciones las cuales podremos utilizar en conjunto con las opciones del panel
+
+	maya blend shape
+
+
+	_para a continuación porceder ha repetir el proceso y crear una nueva layer, en la cuál, pocederemos ha crear otra
+
+	versión ó pose del character, y así, sucesivamente hasta terminar con todas las blend shape, deseadas
+
+
+	Export:
+	_______
+
+	_para que así, luego de haber creado todas las versiones de maya ó mesh, ó motivo ha exportar ha maya vayamos a
+
+	las opciones del panel maya blend shape, de:
+
+
+		_Turn On/Off:
+
+			_
+
+
+		_Selected:
+
+			_ésta opción exportará toda las sub-tools, seleccionadas en el panel sub-tools
+
+
+		_Visible:
+
+			_ésta opción exportará toda las sub-tools, visibles en el panel sub-tools
+
+
+		_All:
+
+			_ésta opción exportará toda las blend shape, que hayamos creado de todas las sub-tools, 
+
+			que conforman el character, y de las cuales hemos hemos modificaciones ó blend shape,
+
+			en el panel sub-tools
+
+
+
+	Export Blend Shape:
+	___________________
+
+		_éste botón exportará todas las blend shape, ó layer, que hayamos creado e indicado como criterio
+
+		de selección en el paso anterior
+
+
+		_de ésta manera, e plugins, exportará todas las versiones ó blend shape, que le hayamos indicado
+
+		y a su vez, abrirá maya y cargará todo el sistema de blend shape, que hemos exportado de forma automática
+
+		dentro de la aplicación 3d, autodesk maya por nosotros
+
+
+		NOTA: el sistema exportará el motivo sin importar si éste se compone de varios sub-tools, exportando así,
+
+		todas las sub-tools, respectivas del character
+
+
+

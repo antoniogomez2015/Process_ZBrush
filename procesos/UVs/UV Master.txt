@@ -1,0 +1,31 @@
+
+
+UVs
+
+	UV Master criterios y desarrollo
+		la mesh no debe tener niveles de subdivisión, de lo contrario tendremos de trabajar con un clone.
+		Antes de comenzar a utilizar UV Master es recomendable realizar todos los Polygroups que consideremos como las partes resultantes de Uv Master.
+		Para buscar mapas que nos ayuden a la visualización de nuestros Uvs vamos LightBox/Zbrush/ZStartUp/ZPlugins/UVMaster
+
+		
+		1.Unwrap y Unwrap All: permiten abrir ó extender los Uvs que conforman la mesh de forma plana ó 2d para verlos y editarlos
+		2.Simetry: permite trabajar simétricamente la edición de UVs
+		3.Poygroups: permite la generación de partes ó segmentos de uvs para su extracción y edición a través de poligrupos
+		4.Used Existing UVs Seam: permite utilizar guias que creemos para indicar nuestros propios criterio de cortes para generar los nuevos Uvs de la mesh
+		5.Enable Control Painting: permite activar las opciones de pintura que permitirán indicar ó proteger partes de la maya con nuestro criterios de corte
+		6.Attract: permite indicar zonas ó líneas de cortes a traves de un pintado con color para crear los criterio de corte para generación de los nuevos Uvs
+		7.Protect: permite indicar zonas que deseamos proteger para que en éstas zonas no se generen cortes ó divisiones de la mesh por medio UVs como rostros y partes de detalle
+		8.Erase: permite borrar y editar la pintura creada tando para Attract como de Protect
+		9.AttractFromAmbientOccl: permite la generación de Uvs tomando como criterio un mapa de auto generado de oclución ambiental
+		10.Density: permite indicar densidades de Uvs en zonas complejas y donde indiquemos, para activar Density, debe estar activado Enable Control Painting.
+		Activamos Density y luego indicamos su valor de suavisar ó aumentar la geometrí en valores que van /4 -/3 -/2 - /1 (1) X1 - X2 - X3 - X4.
+		Luego que indicamos el valor en ("/" ó "X"), procedemos a pintar haciendo las reservas en los lugares que sedemos más geometría ó menos geometría indicado así el criterio a usar   
+		11.Work On Clone: esta opción permite la generación de un clón ó copia de nuestra maya para trabajar con ésta a baja resolución t luego transferir los nuevos UVs generados
+		12.Copy Uvs: permite copiar los Uvs generados en la maya clonada para luego transferirlos a nuestro modelo inicial
+		13.Paste Uvs: permite pegar los Uvs copiados de la maya clonada anteriormente
+		14.Flatten: permite expandir ó aplanar de forma 2d para previsualizar y editar los uvs y sus poligrupos ó partes.
+		en el modo flatter podemos orbitar y utilizar todas herramientas para mover, escalar y rotar las partes de los uvs con los modos "Move", "Scale", "Rotate"
+		15.CheckSeam:esta opción te permite ver los criterios de corte que ha usado Zbrush para hacer las divisiones de los Uvs y partes de la mesh en forma de pintado
+		16.Clear Map:permite borrar el mapa ó la acción de pintura generada por Attract y Protect mode
+		17.LoadCtrMap:permite cargar un archivo de Seam ó guias de cortes ó criterios de corte creados en otras aplicaciones
+		18.SaveCtrMap:permite guardar un archivo de los criterios de cortes creados para generar los uvs de la mesh trabajada 

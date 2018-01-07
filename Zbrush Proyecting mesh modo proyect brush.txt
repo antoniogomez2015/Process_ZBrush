@@ -1,0 +1,10 @@
+
+para proyectar una mesh de alta resolución en otra de menos resolución y con una topología de low poly para producción
+
+
+	1_seleccionamos la mesh de low poly
+
+	2_hacemos "Apend", y cargamos la mesh de alta resolución y detalle y la colocamos bajo la mesh de low poly
+
+	3_luego seleccionamos la brush "Proyect Tool", y en modo de "dd", vamos aplicando la brush en las áreas donde deseamos transferir el detalle
+	de la mesh de alta resolución en la de baja resolución

@@ -1,0 +1,7 @@
+
+
+SIMETRY
+
+	método con deformación:	
+	1.Para hacer una mesh simétrica de un lado al otro, debemos enmascarar el lado que deseamos que sea reflejado al otro lado
+	

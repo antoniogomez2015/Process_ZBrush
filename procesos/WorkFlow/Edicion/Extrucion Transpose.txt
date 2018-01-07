@@ -1,0 +1,8 @@
+
+
+extruir gometría con transpose
+		1.enmascarar el área que no deseamos extruir
+		2.activar la transpose comando "W", y los proyectamos hacia la dirección que deseamos hacer la extrución
+		3.modo "Move", aplicamos Control+Draw,en hacia la dirección que deseamos hacer la extrución, luego pulsamos Shift para alinear
+		4.de esta manera  estaremos extruyendo, repetimos la operación con continuar extrayendo
+		5.podemos extruir la rotación para esto repetimos la operación modo "Rotate"

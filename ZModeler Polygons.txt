@@ -1,0 +1,1273 @@
+
+
+
+
+	ZBrush ZModeler
+
+		
+		Review ZBrush 4R7 en español ::: Parte 1
+			https://www.youtube.com/watch?v=lyG54CiZ5Po&t=489s
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	ZModeler: Shortcut: Control + Shift + Z
+
+
+		ZModeler Options: Mouse Right Click | Spacebar, sobre vertex, edge, face
+
+
+		Polygroups Temporales: Alt + Mouse Left Click
+
+			_lo cuál, nos permitirá extruir áreas más complejas y personalizadas
+		
+
+
+
+	Polygons:
+	_________
+
+
+		Polygon Actions:
+		________________
+
+
+			_Add To Curve:
+
+				_ésta opción nos permitirá hacer "Bevel", a través, de splines
+
+				_para lo cuál, debemos de hacer mouse left click, sobre los polígonos deseados
+
+				sobre los cuáles, se creará una spline, en sus cuatro lados
+
+
+				_y una vez, hayamos realizado las splines, deseadas debemos de aplicar "spacebar",
+
+				ó "mouse right click", posados sobre una spline, para que así, nos aparezca el panel 
+
+				contextual de "Curve Action", y "Targets", en el cuál, podremos escoger los criterios
+
+				de trabajo de la herramienta
+
+
+					_Bevel:
+
+						_ésta opcíón nos permitirá crear extrusión tipo bevel, sobre los edges,
+
+						sobre los cuáles, se han creado las splines, respectivas
+
+
+					_Delete:
+
+						_ésta opción nos permitirá borrar las splines, creadas previamente
+
+
+					_All Cuerves:
+
+						_ésta opción nos pemritirá aplicar el efecto bevel, sobre todas las
+
+						splines, creadas previamente
+
+
+					_Single Row:
+
+						_ésta opción nos pemritirá crear una sólo extrusión ó efecto insert
+
+
+					_Two Rows:
+
+						_ésta opción nos pemritirá crear dos extrusiones ó efectos inserts
+
+
+					_Four Rows:
+
+						_ésta opción nos pemritirá crear cuatro extrusiones ó efectos inserts
+
+
+					_Eight Rows:
+
+						_ésta opción nos pemritirá crear ocho extrusiones ó efectos inserts
+
+
+					_Linear Edge:
+
+						_ésta opción nos pemritirá crear uns insersión homogenea entre los
+
+						polygroups, existentes
+
+
+					_Sharp Edge:
+
+						_ésta opción nos pemritirá crear una insersión sobre las áreas con
+
+						polygroups, más definidas ó enfocadas
+
+
+					_Soft Edge:
+
+						_ésta opción nos pemritirá crear una insersión sobre las áreas con
+
+						polygroups, más suavizadas ó profusas
+
+
+					_Edge Sharpness 50:
+
+						_ésta opción nos pemritirá crear una insersión sobre las áreas con
+
+						polygroups, más enfocadas ó definidas en relación a un umbral el cuál,
+
+						podremos personalizar
+
+
+
+			_Bridge:
+
+				_ésta opción nos permitirá unir dos polígonos entre una ó más islans
+
+
+					_Connected Polys:
+
+						_ésta opción nos permitirá activar todas las opciones de creación
+
+						de bridge, para polygons, contiguos
+
+
+					_Two Polys:
+
+						_ésta opción nos permitirá activar todas las opciones de creación
+
+						de bridge, para polygons, separados ó de diferentes islands
+
+
+					_Bezier Curve:
+
+						_ésta opción activará la interpolación de tipo curva bezier, para la
+
+						generación del bridge, entre polygons, contiguos
+
+
+					_Spline Circle:
+
+						_ésta opción activará la interpolación de tipo circular para la
+
+						generación del bridge, entre polygons, contiguos
+
+
+					_Arcs:
+
+						_ésta opción activará la interpolación de tipo arco, para la
+
+						generación del bridge, entre polygons, contiguos
+
+
+					_Arcs and Lines:
+
+						_ésta opción activará la interpolación de tipo arco y línea, para la
+
+						generación del bridge, entre polygons, contiguos
+
+
+					_Round Corners:
+
+						_ésta opción activará la interpolación de tipo bordes redondeados, para
+
+						la generación del bridge, entre polygons, contiguos
+
+
+					_Small Round Corners:
+
+						_ésta opción activará la interpolación de tipo bordes pequeños y 
+
+						redondeados, para la generación del bridge, entre polygons, contiguos
+
+
+					_Tight Round Corners:
+
+						_ésta opción activará la interpolación de tipo bordes super pequeños 
+
+						para la generación del bridge, entre polygons, contiguos
+
+
+					_Straight Lines:
+
+						_ésta opción activará la interpolación de tipo líneas rectas para la 
+
+						generación del bridge, entre polygons, contiguos
+
+
+					_Interactive Curvature:
+
+						_ésta opción activará la interpolación de tipo interactiva para la 
+
+						generación del bridge, entre polygons, contiguos
+
+
+					_Interactive Resolution:
+
+						_ésta opción activará la resolución inteactiva y por defecto para la 
+
+						generación del bridge, entre polygons, contiguos
+
+
+					_Align To Tangent:
+
+						_ésta opción activará la la alineación en relación a la tangente del
+
+						polígonos sobre el cuál, hacemos click, para la generación del bridge, 
+
+						entre polygons, contiguos
+
+
+					_Variable Width:
+
+						_ésta opción activará la creación de inserts, variables en relación a
+
+						la curvatura de interpolación para la generación del bridge, entre 
+
+						polygons, contiguos
+
+
+					_NonSymetrical:
+
+						_ésta opción activará la creación de inserts, de forma asimétrica para
+
+						lado en relación entre ambos polygons, contiguos para la generación del 
+
+						bridge, entre polygons, contiguos
+
+
+					_Polygroup Rows:
+
+						_ésta opción activará la creación de inserts, con polygroups, para la 
+
+						generación del bridge, entre polygons, contiguos
+
+
+					_Tris & Quads Sides Loops 3:
+
+						_ésta opción activará la creación de inserts, contemplando triads, y 
+				
+						quads en loops, contiguos para la generación del bridge, entre polygons,
+
+						contiguos
+
+
+					_Specified Curvature 50:
+
+						_ésta opción activará la creación de inserts, con un límite ó umbral
+
+						de interpolación personalizado por nosotros para la generación del 
+
+						bridge, entre polygons, contiguos
+
+
+					_Specified Resolution 8:
+
+						_ésta opción activará la creación de inserts, con un límite ó umbral
+
+						de resolución ó cantidad de inserts, personalizado por nosotros para 
+
+						la generación del bridge, entre polygons, contiguos
+
+
+
+					_Align To Normal:
+
+						_ésta opción activará la creación de inserts, con una alineación en
+
+						relación a la normal del polígono sobre el cuál, hacemos click, para la
+
+						generación del bridge, entre polygons, contiguos
+
+
+
+					_Constant Width: 
+
+						_ésta opción activará la creación de inserts, constante en relación a
+
+						la curvatura de interpolación para la generación del bridge, entre 
+
+						polygons, contiguos, de ésta manera, los inserts, siempre serán iguales
+
+
+					_Symetrical:
+
+						_ésta opción activará la creación de inserts, de forma simétrica para
+
+						lado en relación entre ambos polygons, contiguos para la generación del 
+
+						bridge, entre polygons, contiguos
+
+
+					_Polygroup Flat:
+
+						_ésta opción activará la creación de inserts, sin polygroups, para la 
+
+						generación del bridge, entre polygons, contiguos
+
+
+					_Triangles Sides:
+
+						_ésta opción activará la creación de inserts, contemplando triads, para
+
+						la generación del bridge, entre polygons, contiguos
+
+
+					_Quad Sides:
+
+						_ésta opción activará la creación de inserts, contemplando quads, para
+
+						la generación del bridge, entre polygons, contiguos
+
+
+
+
+			_Bevel:
+
+				_ésta opción nos permitirá hacer bevel, ó el efecto inner, de forma personalizable en
+
+				un polígono ó en un polygroup
+
+
+					_Single Row:
+
+						_ésta es la opción por defecto la cuál, creará sólo un inner
+
+
+					_Two Row:
+
+						_ésta opción creará dos inner
+
+
+					_Four Row:
+				
+						_ésta opción creará cuatro inner
+
+
+					_Eight Row:
+
+						_ésta opción creará ocho inner
+
+
+					_Linear Edge:
+
+						_ésta opción creará los inner, en bajo una relación lineal en relación
+
+						a los edges circundantes
+
+
+					_Sharp Edge:
+
+						_ésta opción creará los inner, en bajo una relación de entre los edges,
+
+						más definidos en relación a los edges circundantes
+
+
+					_Soft Edge:
+
+						_ésta opción creará los inner, en bajo una relación de entre los edges,
+
+						más suavizados en relación a los edges circundantes
+
+
+
+					_Edge Sharpness 50:
+
+						_ésta opción nos permitirá difinir un umbral para la dureza de los 
+
+						edges, contemplados por el sistema para la generación de los inners
+
+
+			_Crease:
+
+				_ésta opción nos permitirá agregar "crease", ó bordes duros sobre polígonos ó 
+
+				polygroups, para que así, éstos mantengan su forma a la hora de aplicar "subdivision"
+
+
+					_All Sides:
+
+						_ésta opción efectará todos los lados por igual
+
+
+					_All Faces:
+
+						_ésta opción efectará todos los polígonos por igual
+
+
+					_All Transitions:
+
+						_ésta opción efectará todas las transiciones por ángulos por igual
+
+
+					_All Targets:
+
+						_ésta opción efectará todos los comportamientos por igual
+
+
+					_All Edges:
+
+						_ésta opción efectará todos las aristas por igual
+
+
+					_Long Sides:
+
+						_ésta opción efectará sólo los lados más largos
+
+
+					_Polygroups Bordes:
+
+						_ésta opción efectará sólo los border del polygroup, de trabajo
+
+
+					_Shallow Transitions 10:
+
+						_ésta opción efectará las áreas con los bordes menos definidos y en 
+
+						grados personalizados
+
+
+					_Outer Targets:
+
+						_ésta opción efectará las áreas fuera del polígono clickeado
+
+
+					_Outer Edges:
+
+						_ésta opción efectará las áreas fuera de los bordes del polígono 
+
+						cliqueado
+
+
+					_Short Sides:
+
+						_ésta opción efectará sólo los lados más cortos
+
+
+					_Polygroups Inner:
+
+						_ésta opción efectará sólo el área interna del polygroup, de trabajo
+
+
+					_Sharp Transitions 45:
+
+						_ésta opción efectará las áreas con los bordes más definidis y en 
+
+						grados personalizados
+
+
+					_inner Targets:
+
+						_ésta opción efectará sólo las áreas dentro del polígonos cliqueado
+
+
+					_Inner Edges:
+
+						_ésta opción efectará sólo las áreas con los bordes más cercanos
+
+
+
+			_Delete:
+
+				_ésta opción nos permitirá eliminar faces, ó polygroups, de manera, rápida
+
+
+			_Do Nothing:
+
+				_ésta opción hará que la herramienga global de ZModeler, no haga nada temporalmente
+
+
+			_Equalize:
+
+				_ésta opción nos permitirá homogenizar los edges, para que así, éstos tengan un
+
+				comportamiento más regular
+
+
+			_Extrude:
+
+				_ésta opción nos permitirá extruir polígonos y polygroups, de forma linear y no
+
+				dinámica ó interactiva como la opción de "QMesh", así, ésta opción nos permitirá
+
+				extruir e interactuvar de manera diferente entre los polígonos resultantes
+
+
+					_One Side Poly:
+
+						_ésta opción realizará un extrusión normal la cuál, es la por defecto
+
+
+					_No Side Polys:
+
+						_ésta opción nos permitirá hacer extracciones de uno polygon, ó un
+
+						polygroup, como un islan, independiente
+
+
+					_Step By Brush:
+
+						_ésta opción nos permitirá crear múltiples extrusiones creando especies
+
+						de torres de polígonos extruidos con subdivisiones intermedias
+
+
+					_Step Size 01:
+
+						_ésta opción nos permitirá configurar la separación de las extrusiones
+
+						para el modo de "Step By Brush"
+
+
+
+			_Flip Faces:
+
+				_ésta opción nos permitirá invertir la dirección ó sentido de los polígonos ó 
+
+				polygroups
+
+
+
+			_Inflate:
+
+				_ésta opción nos permitirá scalar ó inflar un polígono ó polygroup, a través, de
+
+				diferentes criterios
+
+
+					_By Face Normal:
+
+						_en relación a la dirección de las normales del polígono ó polygroup
+
+
+					_By Edge Normal:
+
+						_en relación a la dirección de las normales de los bordes del polígono 
+
+						ó polygroup
+
+
+					_By Point Normal:
+
+						_en relación a la dirección de las normales de los vertex del polígono 
+
+						ó polygroup
+
+
+
+			_Insert NanoMesh:
+
+				_ésta opción nos permitirá crear geometría para el proceso de "NanoMesh"
+
+
+			_Insert Point:
+
+				_ésta opción colapsará el face, sobre el cuál, hacemos click, dividiento éste en
+
+				cuatro triangles poligonales
+
+
+					_polycenter:
+
+						_ésta opción colapzará los polígonos al centro dividiendo éstos en
+
+						cuatro triads
+
+
+
+			_Insert polyloops:
+
+				_ésta opción nos permitirá hacer "insert", sobre el polygon, respectivo y los contiguos
+
+				y de manera múltiple, es decir, podremos hacer inserts, sobre insets, de manera,
+
+				interactiva en diferentes niveles
+
+
+					_Interactive Splits:
+
+						_determinará automáticamente si creará triads ó quads
+
+						_así, como la cantidad de insets, creados a través, de por cuanto
+
+						tiempo hagamos "mouse left click and draw", sobre el respectivo
+
+						polygon
+
+
+					_Event Splits (No Tries):
+
+						_ésta opción creará sólo quads
+
+
+					_Specified Count 4:
+
+						_ésta opción especificará la cantidad exacta de inserts, a crear
+
+
+					_Loops Mode:
+
+						_ésta opción creará insets, sobre el polygon, sobre el cuál, hacemos
+
+						click, así, como un par de los polygons, contiguos
+
+
+					_Grid Mode:
+
+						_ésta opción creará insets, sobre el polygon, sobre el cuál, hacemos
+
+						click, así, como también, sobre los cuatro polygons, contiguos creando
+
+						una cruz
+
+
+					_SunBrush Mode:
+
+						_ésta opción es muy similar a la opción de "grid mode", más la opción 
+
+						de "SunBrush Mode", se creará conlos "edges", colapsados al centro en
+
+						el polygon, central conde hemos hecho click
+
+
+					_Alternative Polygroups:
+
+						_ésta opción creará polygroups, en cada insert, creado
+
+
+					_Same Polygroups:
+
+						_ésta opción no creará polygroups, en cada insert, creado
+
+
+
+			_Inset:
+
+				_ésta opción nos pemritirá hacer "insert", hacia adentro de uno ó más polígonos
+
+
+					_Center and Border:
+
+						_ésta opción nos permitirá hacer la función "insert", convencional
+
+
+					_Border Only:
+
+						_ésta opción nos peermitirá retraer la geometría a partir de los
+
+						bordes del polygroup, respectivo dejando el centro vacío
+
+
+					_Center Only:
+
+						_ésta opción nos peermitirá retraer la geometría a partir del centro
+
+						del polygroup, respectivo dejando los bordes vacíos
+
+
+					_Insert Each Poly:
+
+						_ésta opción nos peermitirá crear el efecto "insert", para cada 
+
+						polygon, independientemente en el respectivo polygroup
+
+
+					_Insert Region:
+
+						_ésta opción nos peermitirá crear el efecto de "insert", para todo
+
+						el polygroup, como un todo
+
+
+
+			_Mask:
+
+				_ésta opción nos pemritirá crear una máscara en uno ó más polígonos
+
+
+			_Mesh To Brush:
+
+				_ésta opción nos pemritirá convertir una mesh, en una brush
+
+
+					_Align To Mesh Orientation:
+
+						_alineará la posición del elemento en relación a la orientación de la
+
+						geometría base existente previamente
+
+
+					_Align To clicked Face Normal:
+
+						_alineará la posición del elemento en relación a la orientación de la
+
+						geometría base existente previamente en relación sobre el polígono ó
+
+						cara de éste sobre la cuál, hayamos hecho click
+
+
+			_Move:
+
+				_ésta opción nos pemritirá mover uno ó más polígonos
+
+
+			_Polygroup:
+
+				_ésta opcíon nos permitirá copiar y pegar polygroups, existentes de un lado al otro
+
+				para que así, hacer extrusiones posteriormente de polygroups, compuestos y avanzados
+
+
+					_para lo cuál, debemos de posarnos sobre un polygroup, existentes y hacer
+
+						_primeramente debemos de crear polygroups, temporales: 
+
+						Alt + Mouse Left Click
+
+
+						_para luego hacer "Shift + Mouse Left Click", sobre el polygroup, 
+
+						temporal que hemos realizado previamente
+
+
+						_para por último hacer "Mouse Left Click", sobre las áreas sobre las
+
+						cuáles, deseamos replicar el polygroup, previo
+
+
+			_Qmesh:
+
+				_extrusión poligonal dinámica para crear y restar geometría por polígonos
+
+
+					_split faces: Control + Mouse Left Click and Drag
+
+
+			_Scale:
+
+				_ésta opción nos pemritirá escalar uno ó más polígonos
+
+
+					_Mesh Center:
+
+						_realizará el proceso de escala en relación al centro de la masa
+
+
+					_Axis Center:
+
+						_realizará el proceso de escala en relación a la cordenada del normal
+
+
+					_Local Symetry:
+
+						_realizará el proceso de escala en relación a la simetría local
+
+
+					_Click Center:
+
+						_realizará el proceso de escala en relación a la orientación del 
+
+						polígono clickeado
+
+
+					_Polygroup Center:
+
+						_realizará el proceso de escala en relación al centro del polygroup,
+
+						de trabajo
+
+
+
+			_Spherize:
+
+				_ésta opción nos pemritirá esferizar uno ó más polígonos
+
+					
+
+			_Spin:
+
+				_ésta opción nos pemritirá rotar uno ó más polígonos
+
+
+					_Mesh Center:
+
+						_en relación al centro de la geometría
+
+
+					_Axis Center:
+
+						_en relación al centro de la geometría
+
+
+					_Local Symetry:
+
+						_en relación a la simetría local
+
+
+					_Polygon Center:
+
+						_en relación al centro del polígono clickeado
+
+
+					_Clicked Center:
+
+						_en relación a la cara del polígono clickeado
+
+
+					_Clicked Polygon Corner:
+
+						_en relación a las esquinas del poligono clickeado
+
+
+					_No Alignment:
+
+						_en relación a ninguna alineación por defecto
+
+
+					_Align To 15 Degress:
+
+						_en relación a una alineación de 15, grados en relación al polígono
+
+						clickeado
+
+
+					_Custom Alignment:
+
+						_en relación a un ángulo indicado por nosotros en relación al polígono
+
+						clickeado
+
+
+					_Align Rotation To Axis:
+
+						_en relación a la cordenada del polígono clickeado
+
+
+			_Spin Edges:
+
+				_ésta opción nos pemritirá rotar los bordes de uno ó más polígonos
+
+
+					_Clockwise:
+
+						_rotación en sentido de las agujas de reloj
+
+
+					_Counter Clockwise:
+
+						_rotación en sentido contrario de las agujas de reloj
+
+
+			_Split:
+
+				_ésta opción nos pemritirá dividir en cuatro uno ó más polígonos
+
+
+					_Poly:
+
+						_Opción por defecto la cuál, dividirá el polygon, en 4
+
+
+			_Transpose:
+
+				_ésta opción nos pemritirá crear la herramienta de transpose sobre uno 
+
+				ó más polígonos,enmascarando el resto de polígonos; de ésta manera, podremos
+
+				hacer ediciones sobre la geometría en general
+
+
+			_Unweld:
+
+				_ésta opción nos pemritirá desolver vertex, de uno ó más polígonos
+
+
+					_PGroup Insland:
+
+						_creará el efecto "Crease", sobre el área perimetral del polygroup,
+
+						de trabajo
+
+
+					_Poly:
+
+						_creará el efecto "Crease", sobre cada polygon, del área del polygroup, 
+
+						de trabajo
+
+
+			_ZModeler Modifiers:
+
+				_ésta opción nos pemritirá configurar el comportamiento general de las opciones para 
+
+				los targets, para todas las herramientas de ZModeler
+
+
+					_Face Mode:
+
+						_opción por defecto que aplicará sobre los polygroups, respectivos
+
+
+					_Default Flattness (15 Degress):
+
+						_opción por defecto que delimita la acción sobre una superficie plana
+
+						de un polygon, a 15, grados los cuáles, a su vez, pueden ser modificados
+
+
+					_Flat Targets Tolerance 30:
+
+						_opción alternativa de acción sobre una superficie plana con una 
+
+						tolerancia superior para modificación más olgadas, otros
+
+
+					_Repeat Last Tolerance 10:
+
+						_ésta opción permitirá que la última configuración de la tolerancia
+
+						sea repetida en operaciones posteriores
+
+
+					_Puse Repeat Last:
+
+						_ésta opción detendrá la acción de repetir la última acción de 
+
+						tolerancia en operaciones posteriores
+
+
+
+
+
+		-------------------------------------------------------------------------------------------------------
+
+
+
+		Target:
+		_______
+
+
+			_A Single Poly:
+
+				_aplicará la herramienta a un sólo polygons, sobre el cuál, se ha hecho click
+
+
+			_All Polygons:
+
+				_aplicará la herramienta a todos los polygroups, de la maya activada ó visible
+
+
+			_Al Quads:
+
+				_aplicará la herramienta a todos los polygroups, de la maya activada ó visible
+
+				que sean a su vez, de tipo quads
+
+
+			_All Triangles:
+
+				_aplicará la herramienta a todos los polygroups, de la maya activada ó visible
+
+				que sean a su vez, de tipo triads
+
+
+			_Behind:
+
+				_aplicará la herramienta a todos los polygons, que se encuentren por detras y estén
+
+				relacionados a su vez, al polygon, sobre el cuál, hemos hecho click
+
+
+			_Behind & Polygroups:
+
+				_aplicará la herramienta a todos los polygroups, que se encuentren por detras y estén
+
+				relacionados a su vez, al polygon, y polygroup, sobre el cuál, hemos hecho click
+
+
+			_Brush Radius:
+
+				_aplicará la herramienta a todos los polygons, alcanzados por el raldio del brush,
+
+				activo
+
+
+			_Connected Polys:
+
+				_aplicará la herramienta a todos los polygons, conectados ó unidos contiguamente e
+
+				igualmente en relación a la dirección del cursor ó brush, en relación a la dirección
+
+				de los polígonos respectivos
+
+
+			_Curved Island:
+
+				_aplicará la herramienta a todos los polygons, de la misma isla y contiguas y extenderá
+
+				la selección de éstos polígonos hasta que se encuentren polygons, a una inclinación de 
+
+				0, grados
+
+
+			_Facing Front All:
+
+				_aplicará la herramienta a todos los polygons, contiguos y relacionados que se 
+
+				encuentren orientados en los mismos grados en relación a la cámara ortográfica así, si
+
+				se cambia la orientación de la cámara también, cambiarán los polygons, que interactúan
+
+
+			_Facing Front Island:
+
+				_ésta opción es idéntica a la opcíon anterior, más ésta opción contemplará solo a los
+
+				polygons, de la misma inslan y no a los demás
+
+
+			_Flat & Polygroup:
+
+				_aplicará la herramienta a todos los polygons, que estén en un mismo plano ó grados y 
+
+				que a su vez, pertenezcan al mismo polygroup
+
+
+			_Flat Border:
+
+				_ésta opción es similar a la opción de "Flat & Polygroup", más la opción de 
+
+				"Flat Border", no contemplará los polygroups, y seleccionará polygons, uniformemente
+
+				cuando éstos se encuentren en un mismo plano
+
+
+			_Flat Inner:
+
+				_aplicará la herramienta a todos los polygons, de un área plana y luego descartará
+
+				todos los polygons, del área perimetral afectando sólo a los polygons, del área interna
+
+
+			_Flat Island:
+
+				_ésta opción es similar a la opción de "Flat & Polygroup", más la opción de 
+
+				"Flat Island", no contemplará los polygroups, y seleccionará polygons, uniformemente
+
+				cuando éstos se encuentren en un mismo plano
+
+
+			_InFront:
+
+				_aplicará la herramienta a todos los polygons, que se encuentren frente al polygon,
+
+				sobre el cuál, hacemos click, según su posición de la normal de cada polygon
+
+
+			_InFront & Polygroup:
+
+				_ésta opción es edéntica a la opción anterior de "InFront", más la opción de 
+
+				"InFront & Polygroup", contempla los polygroups, así, ésta opción afectará solo a los
+
+				polygons, del mismo polygroup
+
+
+			_Island:
+
+				_aplicará la herramienta a todos los polygons, de una misma islan ó grupo de polygons,
+
+				contiguos también, a grupos de polygons, por polygroups
+
+
+			_Polygroup All:
+
+				_aplicará la herramienta a todos los polygons, del mismo polygroup, y a su vez, del
+
+				mismo tipo de polygons, sean éstos triads, ó quads
+
+
+			_Poly:
+
+
+				_aplicará la herramienta a todos los polygons, de forma similar ha "Polygroup All",
+
+				contemplando así, los polygons, del mismo tipo; sean éstos triads, y quads, más no
+
+				si son del mismo polygroups
+
+
+			_Poly Corners:
+
+				_aplicará la herramienta a todos los polygons, contiguos los cuáles, le permiten formar
+
+				el polygons, respectivo
+
+
+			_PolyCenter:
+
+				_ésta opcíon es similar a la opción de "A Single Poly", ya que la opción de "PolyCenter",
+
+				focalizará la acción sobre el polygon, sobre el cuál, se ha hecho click
+
+
+			_Polygroup Border:
+
+				_ésta opción es similar a la opción de "PolyGroup All", excepto que después de 
+
+				seleccionar los polígonos que comparten el mismo PolyGroup, se refina esa selección 
+
+				para incluir solo los polígonos que se conectan (comparten un borde) con otros 
+
+				PolyGroups. Dicho de otra manera, el refinamiento es opuesto al de Polygroup Inner.
+
+
+			_Polygroup Inner:
+
+				_ésta opción es similar a la opción de "PolyGroup All", excepto que después de 
+
+				seleccionar los polígonos que comparten el mismo PolyGroup, luego refina esa selección 
+
+				para incluir los polígonos que NO se conectan (comparten un borde) con otros PolyGroups.
+
+				Dicho de otra manera, el refinamiento es opuesto al de Polygroup Inner. Dicho de otra 
+
+				manera, el refinamiento es opuesto al de Polygroup Border.
+
+
+
+			_Polygroup Island:
+
+				_aplicará la herramienta a todos las faces, que conformen a un polygroup, de un color
+
+				determinado
+
+
+			_Polyloop:
+
+				_aplicará la herramienta a toda una hilera ó loops, en dirección al edge, más cercano
+
+
+			_Polyloop & Flat:
+
+				_ésta opción es idéntica a la opción anterior de "Polyloop", más la opción de
+
+				"Polyloop & Flat", contempla los ángulos entre polígonos para detección
+
+
+			_Polyloop & Polygroup:
+
+				_ésta opción es idéntica a la opción anterior de "Polyloop", más la opción de
+
+				"Polyloop & Polygroup", contempla los polygroups contiguos entre polígonos para 
+
+				detección
+
+
+
+		-------------------------------------------------------------------------------------------------------
+
+			
+			_Align Tenth Step:
+
+				_
+
+
+			_Align Hald Step:
+
+				_
+
+
+			_Align Quarter Step:
+
+				_
+
+
+			_Align Full Step:
+
+				_
+
+
+			_Align Third Step:
+
+				_
+
+
+			_No Alignment:
+
+				_
+
+
+
+
+		-------------------------------------------------------------------------------------------------------
+
+
+
+
+		Target:
+		_______
+
+
+			_One Sode Poly:
+
+				_
+
+
+			_Normal Attraction:
+
+				_
+
+
+			_Disable Triangle Snap:
+
+				_
+
+
+			_Disable extended Snap:
+
+				_
+
+
+			_Multi Sodes By Brush:
+
+				_
+
+
+			_Weak Attraction:
+
+				_
+
+
+			_Enable Triangle Snap:
+
+				_
+
+
+			_Enable extended Snap:
+
+				_
+
+
+			_Step Size:
+
+				_
+
+
+			_No Attraction:
+
+				_
+
+
+
+
+
+
+
+
+
+

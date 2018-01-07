@@ -1,0 +1,1326 @@
+
+
+
+
+	ZBrush ZModeler
+
+		
+		Review ZBrush 4R7 en español ::: Parte 1
+			https://www.youtube.com/watch?v=lyG54CiZ5Po&t=489s
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	ZModeler: Shortcut: Control + Shift + Z
+
+
+		ZModeler Options: Mouse Right Click | Spacebar, sobre vertex, edge, face
+
+
+
+	Edges:
+	______
+
+
+		Edge Actions:
+		_____________
+
+
+			_Add To Curve:
+
+				_ésta opción nos permitirá crear splines, sobre los edges, sobre los cuáles, a su vez,
+
+				podremos hacer el efecto "Bebel"
+
+
+				_para lo cuál, una vez creados las respectivos splines, debemos posarnos sobre una
+
+				spline, y hacer sobre ésta mouse right click, ó "spacebar"
+
+
+				_para que así, podamos acceder a las opciones de "Curve Actions", para que así, podamos
+
+				seleccionar entre las siguientes opciones
+
+
+					_Bevel:
+
+						_ésta opcíon nos permitirá seleccionar la opción de creación de bevel,
+
+						a partir de splines, previamente creadas
+
+
+					_Delete:
+
+						_ésta opcíon nos permitirá seleccionar la opción de eliminación de 
+
+						splines, previamente creadas
+
+	
+					_All Curves:
+
+						_opción por defecto y única la cuál, contempla todas las splines,
+
+						creadas para los diferentes procesos como la creación de bevel y
+
+						eliminación de splines
+
+
+					_Single Row:
+		
+						_ésta opción creará sólo un nivel de insert, en el efecto bevel
+
+
+					_Two Rows:
+
+						_ésta opción creará dos niveles de insert, en el efecto bevel
+
+
+					_Four Rows:
+
+						_ésta opción creará cuatro niveles de insert, en el efecto bevel
+
+
+					_Eight Rows:
+
+						_ésta opción creará ocho niveles de insert, en el efecto bevel
+
+
+					_Linear Edges:
+
+						_ésta opción contemplará una interpolación homogenea para la creación
+
+						del efecto bevel, en relacióna las splines, y vertex, existentes
+
+
+					_Sharp Edges:
+
+						_ésta opción contemplará una interpolación dura para la creación
+
+						del efecto bevel, en relacióna las splines, y vertex, existentes
+
+
+					_Soft Edges:
+
+						_ésta opción contemplará una interpolación suavizada para la creación
+
+						del efecto bevel, en relacióna las splines, y vertex, existentes
+
+
+					_Edges Sharpness 50:
+
+						_ésta opción contemplará una interpolación personalizable para la 
+
+						creación del efecto bevel, en relacióna las splines, y vertex, existentes
+
+
+			_Align:
+
+				_ésta opcíon nos permitirá tomar una serie de bordes en orden continuo y unificará sus 
+
+				posiciones en función del modificador seleccionado
+
+
+					_Edge-Strip:
+
+						_ésta opción es por defecto y no se puede desactivar la cuál, contempla
+
+						la banda de los bordes ha analizar						
+
+
+					_Bezier Curve:
+
+						_ésta opción contempla una interpolación de tipo curva para el ajuste
+
+
+					_Spline:
+
+						_ésta opción contempla una interpolación de tipo linear para el ajuste
+
+
+					_Circle:
+
+						_ésta opción contempla una interpolación de tipo circular para el ajuste
+
+
+					_Arcs:
+
+						_ésta opción contempla una interpolación de tipo arco para el ajuste
+
+
+					_Arcs and Lines:
+
+						_ésta opción contempla una interpolación de tipo arco y línea a la vez,
+
+						para el ajuste
+
+
+					_Round Corners:
+
+						_ésta opción contempla una interpolación de tipo arco achatado con los
+
+						bordes redondeados para el ajuste
+
+
+					_Small Round Corners:
+
+						_ésta opción contempla una interpolación de tipo arco pequeño y 
+
+						achatado con los bordes redondeados para el ajuste
+
+
+					_Tight Round Corners:
+
+						_ésta opción contempla una interpolación de tipo arco muy achatado con 
+
+						los bordes redondeados para el ajuste
+
+
+					_Straight Lines:
+
+						_ésta opción contempla una interpolación de tipo línea recta para el 
+
+						ajuste
+
+
+					_Interactive Curvature:
+
+						_ésta opcíon activará las opciones de interpolación adaptativa
+
+
+					_Align To Normal:
+
+						_ésta opción realizará la elineación a través, de las normales de los 
+
+						edges
+
+
+					_Overwrite Position:
+
+						_ésta opción superpondrá las posiciones iniciales de los edges
+
+
+					_Variable Width:
+
+						_ésta opción activará las opciones de ancho variable del umbral de 
+
+						detección
+
+
+					_Specified Curvature:
+
+						_ésta opción nos pemritirá indicar un rango ó umbral para la curvatura
+
+						de interpolación
+
+
+					_Align To Target:
+
+						_ésta opción nos permitirá alinear los edges, en relación al edge, sobre
+
+						el cuál, hemos hecho click
+
+
+					_Adaptative Position:
+
+						_ésta opcíon nos permitirá activar las opciones de posición adaptativa
+
+						para que así, el sistema auto calcule la posición de los edges
+
+
+					_Constante Width:
+
+						_ésta opción nos permitirá indicar un ancho constante como unbral para
+
+						la detección de bordes
+
+
+
+			_Bevel:
+
+				_ésta opción nos permitirá hacer bevel, ó inserts, sobre un edges, ó loops, 
+
+				respectivamente
+
+
+					_EdgeLoop Complete:
+
+						_ésta opción contemplará todo el loop, de edges, forzando cerrar 
+
+						el ciclo
+
+
+					_EdgeLoop Partial:
+
+						_ésta opción contemplará todo el loop, de edges, hasta que éste sea
+
+						interrumpido
+
+
+					_Polyloop:
+
+						_ésta opción contemplará todo el loop, de edges, forzando cerrar 
+
+						el ciclo más éte contemplará también, los polygroups
+
+
+					_single Row:
+
+						_ésta opción creará sólo un insert
+
+
+					_Two Rows:
+
+						_ésta opción creará dos insert
+
+
+					_Four Rows:
+
+						_ésta opción creará cuatro insert
+
+
+					_Eight Rows:
+
+						_ésta opción creará ocho insert
+
+
+					_Linear Edge:
+
+						_ésta opción creará los inserts, a partir de bordes homogéneos
+
+
+					_Sharp Edge:
+
+						_ésta opción creará los inserts, a partir de los bordes más definidos
+
+
+					_Soft Edge:
+
+						_ésta opción creará los inserts, a partir de los bordes más suaves
+
+
+					_Edge Sharpness 50:
+
+						_ésta opción nos permitirá indicar un valor personalizados para la
+
+						detección de los bordes
+
+
+
+			_Bridge:
+
+				_ésta opción nos permitirá cerrar "holes", así, como también, crear puentes y arcos 
+
+				entre diferentes holes, abiertos previamente
+
+
+					_Edges:
+
+						_ésta opción permitirá que el sistema sólo aplique sobre edges, 
+					
+						abiertos dentro de un mismo hole
+
+
+					_Two Holes:
+
+						_ésta opción permitirá que el sistema aplique sobre edges, de entre
+
+						dos holes, para la creación de puentes y arcos así, como también, ésta
+
+						opción activará las opciones evanzadas
+
+
+					_Spline:
+
+						_tipo de interpolación de tipo spline, ó curva
+
+
+					_Circle:
+
+						_tipo de interpolación de tipo círculo
+
+
+					_Arcs:
+
+						_tipo de interpolación de tipo arco
+
+
+					_Arcs and Lines:
+
+						_tipo de interpolación de tipo arco bajo
+
+
+					_Round Corners:
+
+						_tipo de interpolación de tipo arco achatado con los bordes redondeados
+
+
+					_Small Round Corners:
+
+						_tipo de interpolación de tipo arco con los bordes muy achatados con 
+
+						los bordes redondeados
+
+
+					_Tight Round Corners:
+
+						_tipo de interpolación de tipo arco con los bordes super achatados con 
+
+						los bordes redondeados
+
+
+					_Straight Lines:
+
+						_tipo de interpolación de tipo línea recta
+
+
+					_One Line:
+
+						_tipo de interpolación de tipo línea general
+
+
+					_Interactive Curvature:
+
+						_ésta opción activará las opciones de interpolación de tipo curva 
+
+						interactiva
+
+
+					_Interactive Resolution:
+
+						_ésta opción activará las opciones de resolución interactiva
+
+
+					_Polygroup Columns:
+
+						_ésta opción contempla los polygroups, en columnas paralelas para la
+
+						creación de los puentes y arcos apartir de los bordes seleccionados
+
+
+					_Pivot On Hole Center:
+
+						_ésta opción contempla tomar como pivote del sistema, el centro del 
+
+						hole, de referencia
+
+
+					_Auto Align Edges:
+
+						_ésta opción contempla alinear la geometría generada a partir de los
+
+						bordes seleccionados
+
+
+					_Optimal Curvature:
+
+						_ésta opción contempla la optimización de la curvatura generada en
+
+						arcos
+
+
+					_Optimal Resolution:
+
+						_ésta opción contempla la optimización de la resolución ó densidad del
+
+						sistema generado
+
+
+					_Polygroup Rows:
+
+						_ésta opción contempla la creación de polygroups, en cada insert, 
+
+						creado en la creación de arcos
+
+
+					_Half Curvature:
+
+						_ésta opción contempla la creación de una curvatura de arco limitada
+
+						a la mitad para que así, ésta sea menos arqueada
+
+
+					_Minimum Resolution:
+
+						_ésta opción contempla lleva a la mínima expresión la curvatura del
+
+						arco generado así, como la resolución ó cantidad de inserts, generados
+
+
+					_Polygroup Flat:
+
+						_ésta opción contempla la creación de polygroup, en relación a la 
+
+						dirección de las normales
+
+
+					_Pivot On Clicked Edge:
+
+						_ésta opción contempla tomar como pivote del sistema, el edge, sobre
+
+						el cuál, hemos hecho click
+
+
+					_Align Clicked Edges:
+
+						_ésta opción contempla alinear el sistema, a través, de el edge, sobre
+
+						el cuál, hemos hecho click
+
+
+
+			_Close:
+
+				_ésta opción nos permitirá cerrar holes, a través, de diferentes criterios
+
+
+					_Concave Hole:
+
+						_ésta opción nos permitirá cerrar un hole, rellenando éste con dos
+
+						triads, automáticamente
+
+
+					_Convex Hole:
+
+						_ésta opción nos permitirá cerrar un hole, rellenado éste con con tres
+
+						triads, automáticamente más con la diferencia de que podremos hacer
+
+						inserts, de loops, como también de aplicar volúmen a través, de arcos
+
+						de modo similar que con la herramienta de bridge
+
+
+						
+
+					_Spline:
+
+						_ésta opción activará la interpolación de tipo spline, para la 
+
+						generación de arcos
+
+
+					_Circle:
+
+						_ésta opción activará la interpolación de tipo círculo, para la 
+
+						generación de arcos
+
+
+
+					_Arcs:
+
+						_ésta opción activará la interpolación de tipo arco, para la 
+
+						generación de arcos
+
+
+
+					_Arcs and Lines:
+
+						_ésta opción activará la interpolación de tipo arco lineal para la 
+
+						generación de arcos
+
+
+
+					_Round Corners:
+
+						_ésta opción activará la interpolación de tipo arco bajo con los bordes
+
+						redondeados para la generación de arcos
+
+
+
+					_Small Rounds Corners:
+
+						_ésta opción activará la interpolación de tipo arco bajo pequeño con 
+
+						los bordes redondeados para la generación de arcos
+
+
+					_Tight Round Corners:
+
+						_ésta opción activará la interpolación de tipo arco super bajo con los 
+
+						bordes redondeados para la generación de arcos
+
+
+					_Straight Lines:
+
+						_ésta opción activará la interpolación de tipo línea recta para la 
+
+						generación de arcos
+
+
+					_One Line:
+
+						_ésta opción activará la interpolación de tipo línea general para la 
+
+						generación de arcos
+
+
+					_Converge To Center:
+
+						_ésta opción indicará que los bordes de los triads, generados converjan
+
+						al centro del hole
+
+
+					_Converge To Edge:
+
+						_ésta opción indicará que los bordes de los triads, generados converjan
+
+						al perímetro del hole
+
+
+					_Interactive Curvature:
+
+						_ésta opción activará la interpolación de tipo curva automática
+
+
+					_Interactive Resolution:
+
+						_ésta opción activará la resolución de tipo automática
+
+
+					_No Twist:
+
+						_ésta opción nos pemritirá la torsión de los triads, generados
+
+
+					_Polygroup Columns:
+
+						_ésta opcíon activará la creación de triads, a modo de columnas, y
+
+						polygroups
+
+
+					_Optimal Curvature:
+
+						_ésta opción activará la optimización para la curvatura de 
+
+						interpolación
+
+
+					_Optimal Resolution:
+
+						_ésta opción activará la optimización para la resolution
+
+
+					_360 Deg Twist:
+
+						_ésta opción activará el virado de 360, del sistema
+
+
+					_Polygroup Rows:
+
+						_ésta opcíon activará la creación de triads, a modo de columnas, pero
+
+						sin polygroups
+
+
+					_Converge To Point:
+
+						_ésta opcíon activará la creación de triads, convergentes al centro
+
+
+					_Curvature 100:
+
+						_ésta opción activará la personalización de la curvatura de 
+
+						interpolación
+
+
+					_Resolution 8:
+
+						_ésta opción activará la personalización de la resolución por nosotros
+
+						mismos
+
+
+					_Twist 360:
+
+						_ésta opción activará la personalización de la torsión por nosotros
+
+						mismos
+
+
+					_Polygroup Flat:
+
+						_ésta opción activará la generación de polygroups, en relación al plano
+
+						de los polígonos
+
+
+
+			_Collapse:
+
+				_ésta opción nos permitirá colapsar ó eliminar edges, a través, de diferentes criterios
+
+
+
+					_Edge:
+
+						_ésta opción eliminará sólo el edge, sobre el cuál, hemos hecho click
+
+
+					_Hole:
+
+						_ésta opción eliminará sólo los edge, que conforman un hole
+
+
+					_Polyloop:
+
+						_ésta opción eliminará los edge, que conformen un loop, hasta que éste
+
+						sea interrumpido
+
+
+
+			_Crease:
+
+				_ésta opción nos pemritirá agregar bordes duros y definidos para el proceso de 
+
+				subdivision surface
+
+
+					_Edge:
+
+						_ésta opción aplicará solo al edge, sobre el cuál, hemos hecho click
+
+
+					_EdgeLoop Partial:
+
+						_ésta opción aplicará sobre el loop, hasta que éste sea interrumpido
+
+
+					_EdgeLoop Complete:
+
+						_ésta opción aplicará sobre el loop, tratando de cerrar el ciclo
+
+
+					_PolyLoop:
+
+						_ésta opción es idéntica a la opción de "EdgeLoop Complete", más la
+
+						opción de polyloop, comtemplará adicionalmente los polygroups
+
+
+			_Delete:
+
+				_ésta opcíon nos permitirá eliminar edges
+
+
+					_Edges:
+
+						_ésta opción eliminará sólo el edge, sobre el cuál, hemos hecho click
+
+
+					_EdgeLoops Complete;
+
+						_ésta opción eliminará el loop, completo tratando de cerrar el cilo
+
+
+					_EdgeLoop Partial:
+
+						_sta opción eliminará el loop, hasta que éste sea interrumpido
+
+
+
+			_Do Nothing:
+
+				_ésta opcíon creará un hole, en relación sobre el edge, sobre el cuál, hemos hecho 
+
+				click
+
+
+			_Extrude:
+
+				_ésta opción nos pemritirá extruir un edge, ó faces, a través, de diferentes criterios
+
+
+					_Edge:
+
+						_ésta opción extruirá sólo el edge, sobre el cuál, hemos hecho click
+
+
+					_EdgeLoop Partial:
+
+						_ésta opción extruirá todo el loop, hasta que éste sea interrumpido
+
+
+					_EdgeLoop Complete:
+
+						_ésta opción extruirá todo el loop, tratando de cerrar el cilo
+
+
+					_PGroup Island:
+
+						_ésta opción extruirá un polygon completo
+
+
+					_Polyloop:
+
+						_ésta opción extruirá todo el loop, de faces, ó polygns
+
+
+					_Straight:
+
+						_ésta ocpión contemplará los edges, que estén en el mismo plano ó lineal
+
+
+					_Rotate To 15 Degress:
+
+						_ésta ocpión contemplará los edges, que estén a un ángulo menor ha 15,
+
+						grados
+
+
+					_Custom Rotate 45:
+
+						_ésta ocpión nos permitirá indicar los grados de trabajo para la 
+
+						generación de extrusiones
+
+
+
+			_Insert:
+
+				_ésta opción nos permitirá agregar edges, a la geometría existente
+
+
+					_Single EdgeLoop:
+
+						_ésta opción es la por defecto la cuál, ´solo creará un edgeloop, como
+
+						nueva geometría
+
+
+					_Multiple EdgeLoop:
+
+						_ésta opción activará las opciones de múltiples edgeloops, lo cuál,
+
+						a su vez, activará el resto de opciones de configuración avanzada
+
+
+					_Interactive Resolution:
+
+						_ésta opción activará las opciones de edgeloops, interactivos en 
+
+						relación a la presión del mouse
+
+
+					_Specified Resolution 8:
+
+						_ésta opción nos pemritirá especificar la cantidad de edgeloop, ha 
+
+						agregar por el sistema
+
+
+					_Specified Elevation 0:
+
+						_ésta opción activará las opciones de elevation, personalizable lo
+
+						cuál, nos permitirá indicar la cantidad de elevación de los edge, 
+
+						creados
+
+
+					_Interactive Elevation:
+
+						_ésta opción activará las opciones de elevation, interactivas lo
+
+						cuál, el sistema controlará la elevación automáticamente lo cuál, por
+
+						defecto es de "0"
+
+					_Spline 100:
+
+						_curva de interpolación dinámica de tipo spline
+
+
+					_Radial 100:
+
+						_curva de interpolación dinámica de tipo radial ó circular
+
+
+					_Linear 100:
+
+						_curva de interpolación dinámica de tipo lineal
+
+
+					_Flat:
+
+						_curva de interpolación dinámica de tipo plana ó lineal también
+
+
+					_Per Polygon Normal:
+
+						_curva de interpolación dinámica en relación a las normales
+
+
+					_Clicker Normal:
+
+						_curva de interpolación dinámica en relación de donde hemos hecho
+
+						click
+
+
+					_Average Normal:
+
+						_curva de interpolación dinámica en relación a una ponderación de todas
+
+						las normales de los polygons
+
+
+					_Alternative Polygroups:
+
+						_curva de interpolación dinámica en relación a una ponderación de todas
+
+						las normales de los polygons, de forma aleatoria
+
+
+					_Same Polygroups:
+
+						_curva de interpolación dinámica en relación a una ponderación de todas
+
+						las normales de los polygons, de forma aleatoria
+
+
+			_Inset:
+
+				_ésta opción nos permitirá hacer "inserts", en polygons, contiguos al edge, sobre el
+
+				cuál, hemos hecho click, a través, de diferentes criterios y tipos
+
+
+					_Edge:
+
+						_ésta opción nos permitirá hacer un insert, sólo en dos polygons, 
+
+						contiguos al edge, sobre el cuál, hemos hecho click
+
+
+					_EdgeLoop Partial:
+
+						_ésta opción nos permitirá hacer un insert, a través, del loop, hasta
+
+						que éste sea interrumpido
+
+
+					_EdgeLoop Complete:
+
+						_ésta opción nos permitirá hacer un insert, a través, del loop, 
+
+						tratando siempre de cerrar el ciclo
+
+
+					_PolyLoop:
+
+						_ésta opción nos permitirá hacer un insert, a través, del loop, hasta
+
+						que éste sea unterrumpido
+
+
+					_Center and Border:
+
+						_ésta opcíon contemplará para la insersión dejar tando el área 
+
+						perimetral como el área central visibles
+
+
+					_Border Only:
+
+						_ésta opcíon contemplará para la insersión dejar sólo el área 
+
+						perimetral visibles
+
+
+					_Center Only:
+
+						_ésta opcíon contemplará para la insersión dejar sólo el área 
+
+						central visibles
+
+
+					_Insert Each Poly:
+
+						_ésta opcíon contemplará para la insersión de tipo loop, pero a su vez
+
+						aplicar cada insersión en cada polygons, del loop
+
+
+					_Insert Region:
+
+						_ésta opcíon contemplará para la insersión todo una resión a través,
+
+						de polygroups, ó edgeloops
+
+
+
+
+			_Mask:
+
+				_ésta opción nos permitirá crear máscaras sobre edges
+
+
+					_Edge:
+
+						_ésta opcíon nos permitirá crear máscaras sobre el edge, sobre el cuál,
+
+						hemos hecho click
+
+
+					_EdgeLoop Partial:
+
+						_ésta opcíon nos permitirá crear máscaras sobre el loop, hasta que 
+
+						éste sea interrumpido
+
+
+					_EdgeLoop Complete:
+
+						_ésta opcíon nos permitirá crear máscaras sobre el loop, tratando de
+
+						cerrar el cilo
+
+
+					_PolyLoop:
+
+						_ésta opcíon nos permitirá crear máscaras sobre el loop, hasta que 
+
+						éste sea interrumpido
+
+	
+			_Move:
+
+				_ésta opción nos permitirá mover los edges, de manera libre
+
+
+			_Move Auto Radius:
+
+				_ésta opción nos permitirá mover un loop, de edges, hasta que éste sea interrumpido
+
+
+				_Definición formal: Mover el radio automático desplaza todo el margen ralentizando 
+
+				disminuyendo la fuerza del movimiento
+
+
+			_Move Brush Radius:
+
+				_ésta opción nos permitirá mover un loop, de edges, tratando de cerrar el ciclo
+
+
+				_Definición formal: Mover el radio del pincel mueve los bordes según el Tamaño del 
+
+				dibujo
+
+
+			_Move Infinite Radius:
+
+				_ésta opción nos permitirá mover un loop, de edges, tratando de cerrar el ciclo
+
+
+				_Definición formal: Mover Infinite Radius desplaza todo el borde basado en la 
+
+				profundidad de la vista de la cámara
+
+
+			_Polygroup:
+
+				_ésta opción nos permitirá crear polygroups, paralelos al edge, sobre el cuál, hemos
+
+				hecho click
+
+
+					_Overwrite:
+
+						_ambos tienen un comportamiento similar
+
+
+					_Additive:
+
+						_ambos tienen un comportamiento similar
+
+
+			_Qmesh:
+
+				_ésta opción nos pemritirá extruir dinámicamente los edges, para crear nueva geometría
+
+				de tipo triads, ó quads, de forma compuesta, otros
+
+
+					_Edge:
+
+						_ésta opción aplicará sólo al edge, sobre el cuál, hemos hecho click
+
+
+					_EdgeLoops Partial:
+
+						_ésta opción aplicará al loop, de edges, hasta que éste sea 
+
+						interrumpido
+
+
+					_PolyLoop:
+
+						_ésta opción aplicará al loop, de edges, pero de tipo ring, hasta que
+
+						éste sea interrumpido
+
+
+					_EdgeLoop Complete:
+
+						_ésta opción aplicará al loop, de edges, forzando el loop, hasta
+
+						cerrar el ciclo
+
+
+					_PGroup Island:
+
+						_ésta opción aplicará a todos los edges, que pertenezcan al mismo
+
+						polygroup
+
+
+					_Full Step:
+
+						_ésta opción aplicará con una fuerza total sobre los edges
+
+
+					_Half Step:
+
+						_ésta opción aplicará con una fuerza a la mitad sobre los edges
+
+
+					_Quarter Step:
+
+						_ésta opción aplicará con una fuerza de un cuarto sobre los edges
+
+
+					_Straight:
+
+						_ésta opción aplicará con una fuerza lineal sobre los edges
+
+
+					_Rotate To 15 Degress:
+
+						_ésta opción aplicará con una rotación a partir de 15 grados
+
+
+					_Custom Rotate 45:
+
+						_ésta opción aplicará con una rotación personalizable por nosotros
+
+
+
+					_Normal Attraction:
+
+						_ésta opción aplicará con una atracción normal sobre los edges
+
+
+
+					_Weak Attraction:
+
+						_ésta opción aplicará con una atracción dévil sobre los edges
+
+
+					_No Attraction:
+
+						_ésta opción aplicará con una atracción nula sobre los edges
+
+
+			
+			_Scale:
+
+				_ésta opción nos permitirá escalar los edges
+
+
+					_Edge:
+
+						_ésta es la opción por defecto la cuál, nos pemritirá sólo mover el
+
+						edge, sobre el cuál, hacemos click
+
+
+					_EdgeLoop Partial:
+
+						_ésta opción nos permitirá mover el loop, completo hasta que éste sea
+
+						interrumpido
+
+
+					_EdgeLoop Complete:
+
+						_ésta opción nos permitirá mover el loop, completo tratando siempre de
+
+						cerrar el ciclo
+
+
+					_PolyLoop:
+
+						_ésta opción es similar a la opción de "edgeloop complete", más la
+
+						opción de polyloop, contemplará los polygroups
+
+
+					
+
+
+			_Slide:
+
+				_ésta opción nos permitirá mover ó ajustar los edges, de posición
+
+
+					_Edge:
+
+						_ésta opción aplicará sólo sobre el edge, sobre el cuál, hacemos click
+
+
+					_EdgeLoops Complete:
+
+						_ésta opción aplicará sobre el loop, completo tanto de cerrar el ciclo
+
+
+					_EdgeLoop Partial:
+
+						_ésta opción aplicará sobre el loop, hasta que éste sea interrumpido
+
+
+			_Spin:
+
+				_ésta opción nos permitirá dividir dos polygons, que se encuentren contiguos entre
+
+				un edge, sobre el cuál, hemos hecho click, los cuáles, se dividirán en dos triads
+
+
+			_Split:
+
+				_ésta opción nos permitirá dividir dos polygons, que se encuentren contiguos entre
+
+				un edge, sobre el cuál, hemos hecho click, los cuáles, se dividirán en seis triads
+
+
+			_Stich:
+
+				_ésta opción de puntada cierra los bordes de un agujero, soldándolos juntos. Dado que 
+
+				los dos bordes clicados se sueldan juntos, la alineación de los bordes clics definirá 
+
+				la topología resultante.
+
+
+			_Swivel:
+
+				_ésta opción nos permitirá mover edges, en arco
+
+
+					Edge:
+
+						_ésta opción nos permitirá mover en arco sólo un edge, sobre el cuál,
+
+						hemos hecho click
+
+
+					_EdgeLoop:
+
+						_ésta opción nos permitirá mover en arco todo un loop de edges, hasta
+
+						que éste sea interrumpido
+
+
+
+			_Transpose:
+
+				_ésta opción nos permitirá colocar el transpose, en un área determinada a través, de
+
+				diferentes criterios
+
+
+					_Edge:
+
+						_ésta opción nos permitirá colocar el transpose, sobre el edge, sobre
+
+						el cuál, hemos hecho click
+
+
+					_EdgeLoop Partial:
+
+						_ésta opción nos permitirá colocar el transpose, sobre el loop, hasta
+
+						que éste sea interrumpido
+
+
+					_EdgeLoop Complete:
+
+						_ésta opción nos permitirá colocar el transpose, sobre el loop, 
+
+						trarando de cerrar el ciclo
+
+
+					_PolyLoop:
+
+						_ésta opción nos permitirá colocar el transpose, sobre el loop, hasta
+
+						que éste sea interrumpido
+
+
+
+			_unweld:
+
+				_ésta ocpíon nos permitirá crear el efecto "Crease"
+
+
+					_Edge:
+
+						_ésta opción nos permitirá crear el efecto crease, sobre el edge, sobre
+
+						cuál, hemos hecho click
+
+
+					_EdgeLoop Partial:
+
+						_ésta opción nos permitirá crear el efecto crease, sobre el loop, hasta
+
+						que éste sea interrumpido
+
+
+					_EdgeLoop Complete:
+
+						_ésta opción nos permitirá crear el efecto crease, sobre el loop, 
+
+						tratando de cerrar el ciclo
+
+
+					_PolyLoop:
+
+						_ésta opción nos permitirá crear el efecto crease, sobre el loop, 
+
+						tratando de cerrar el ciclo, tomando en cuentra los polyloops, de
+
+						polygons
+			
+
+
+
+
+		-------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+

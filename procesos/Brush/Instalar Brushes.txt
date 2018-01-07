@@ -1,0 +1,8 @@
+
+
+	Instalar brushes
+
+
+		1_copiamos la brushes, que hemos creado y las pegamo en la siguiente rita: 
+
+		"C:\Program Files (x86)\Pixologic\ZBrush 4R6\ZStartup\BrushPresets"

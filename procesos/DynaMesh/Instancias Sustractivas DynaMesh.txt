@@ -1,0 +1,18 @@
+
+
+instancias sustractivas con dynamesh y brush con geometría
+
+
+		1.para crear un instancia mesh dentro la misma tool debemos activar el modo de transpose, su comando 
+
+		es "W"
+
+
+		2.para hacer la acción de instancia proyectamos el transpose pulsamos Alt+Draw en el sentido que deseamos 
+
+		crear la instancia
+
+
+		3.luego hacemos Control+Draw en el canvas dos veces para sustraer la instancia sobre la mesh que deseamos 
+
+		hacer la sustracción de geometría

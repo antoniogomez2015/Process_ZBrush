@@ -1,0 +1,359 @@
+
+EXTRAER GEOMETRÍA
+
+1.duplicar la sub-herramienta
+
+2.aumentar el level de subdivision a 5
+
+3.seleccionar por máscaras, polygroups ó por objetos visibles el área a extraer
+
+4.aplicar herramientas de subtools extract ó aplit; sea por polygroups, mascara ó visible
+
+	Criterios de Extract:
+		1.S smt (smoothness): suavisa y repliega la geometría eliminando el desalle de la maya y disminuyendo el tamaño
+		2.Thickness: es el grosor ó espesos que tendrá la maya extraida
+		3.TConrner: al activarse permite la creación de triángulos en las extraciones
+		4.TBord: al activarse contempla los bordes de la maya inicial y los conserva en la creación la maya extraida
+		5.Bouble: al activarse crea una geometría con polígonos en ambas caras del espesor de la maya
+
+TRNASPOSE
+	
+	1.para activar el modo Transpose lo hacemos con el comando "W"
+	2.para aplicar Transpose hacemos click+Draw sobre el objeto ó mesh, también si hacemos click en el punto ó sub-elemento que deseamos se proyecte el transpose  automáticamente
+	3.si hacemos click+Draw+Control crearemos una máscara en sentido del draw ó transpose
+	4.si proyectamos el Transpose haciendo click en una parte de la mesh y luego hacemos Click+Control+Draw, crearemos un instancia ó copia de la mesh
+	4.si con la mesh parcialmente enmascarada hacemos draw+Control para accionar el traspose, lograremos el efecto de extrusión de geometria lineal
+	5.si con la mesh parcialmente enmascarada hacemos draw+Control+Alt para accionar el traspose, lograremos el efecto de extrusión de geometria lineal y ésta se creará como nuevos poligrupos
+	6.si con la mesh parcialmente enmascarada hacemos draw+Control en uno de los extremos del Transpose para accionar el traspose, lograremos dividir la geometria en dos partes, una la enmascarada y la otra parte no enmascarada
+
+
+EDICIÓN
+	
+	duplicar ó copiar mesh
+		1.para duplicar ó clonar mesh dentro la misma tool debemos activar el modo de transpose, su comando es "W"
+		2.para hacer la acción de duplicado proyectamos el transpose pulsamos Control+Draw en el sentido que deseamos crear la copia ó clón	
+
+	instancias sustractivas con dynamesh y brush con geometría
+		1.para crear un instancia mesh dentro la misma tool debemos activar el modo de transpose, su comando es "W"
+		2.para hacer la acción de instancia proyectamos el transpose pulsamos Alt+Draw en el sentido que deseamos crear la instancia
+		3.luego hacemos Control+Draw en el canvas dos veces para sustraer la instancia sobre la mesh que deseamos hacer la sustracción de geometría
+
+	extruir gometría con transpose
+		1.enmascarar el área que no deseamos extruir
+		2.activar la transpose comando "W", y los proyectamos hacia la dirección que deseamos hacer la extrución
+		3.modo "Move", aplicamos Control+Draw,en hacia la dirección que deseamos hacer la extrución, luego pulsamos Shift para alinear
+		4.de esta manera  estaremos extruyendo, repetimos la operación con continuar extrayendo
+		5.podemos extruir la rotación para esto repetimos la operación modo "Rotate"
+
+BRUSH
+
+	crear inset mesh personalizadas
+		1.creamos, editamos y activamos nuestra mesh a utilizar como nueva brush
+		2.para convertir la mesh que hemos creado debemos ir a al menú contextual e la brushes haciendo uso del icon de brushes ó con el comando "B"
+		3.en el menú contextual clickamos en botón "Create InsertMesh", y se creará un inserbrush con nuestra mesh y se activará para ser usada
+		4.para personalizar el icono de las brush vamos al menú/Brush/SelectIcon, click+Alt, ésta acción tomará ins instantanea de nuestra mesh y la usará como icon
+	
+
+SHADOWBOX
+	Creación de hard geometry con Shadowbox
+	Para abrir Shadowbox: 1.en el lightbox/Tools/ShadowBox 128 y 64 2.con una mesh activada menú Tool/Geometry/ShadoBox
+
+1.la geometría se construye en un nodo en forma de curbo con tres caras visibles, cada cara se comporta como polygroups
+	
+	Criterios de ShadowBox
+		1.la textura que muestra la podemos aditar, asignar como una textura
+		2.Resolution: este valor permite configurar la cantidad de resolución ó definición de la maya resultante
+		3.Polish: configura la acutancia y suavidad entre planos gradados de la forma de las proyecciones entre los planos
+		4.para crear proyecciones sobre cada plano del cubo se utilizan máscaras, se pueden crear con pinceles, lazos, formas, otros
+		5.para cerra ShadowBox y poder editar normalmente la maya: apagamos ShadowBox en menú Tool/Geometry/ShadoBox
+
+
+BROCHAS
+	MATCHMAKER
+	1.append una maya dentro de otra y las colocamos contiguas quedando la que deformará y la deformada
+	2.colocamos la camara en la vista frontal axonométrica usando Shift, la maya a deformar debe de quedar sobre la maya deformadora
+	3.con la mesh a deformar seleccionada haces click en el centro de la mesh and draw aplicando la deformación en base a la mesh deformadora
+
+
+
+EXPORTAR
+	1.debemos colocar el level  de resolución de la mesh que queremos exportar como level mínimo de la herramienta
+	2.la mesh deberá tener creados sus UVs, textura polypaint y normal map si así lo requerimos para postpoducción 
+	3.las normales de los polígonos exportados de Zbrush apuntan hacia la cámara de zbrush al momento de ser exportados
+	por ende hay que ajustarlos ó suavisarlos en la aplicación de postpoducción
+
+ZSKETCH
+	1.un requerimiento impresindible para creación con ZSketch es la existencia de ZSphere en nuestra herramienta
+	2.existen dos formas de activar ZSketch, 1.Shift+A  2.menu Tool/ZSketch/EditSketch 
+	3.la creación de ZSketch usa la forma de la ZSpheres como base ó punto de partida para la creación de geometría
+	4.las condiciones y características expresadas anteriomente aplican ZSketh a arquetipos hechos con ZSphere
+	5.para crear líneas rectas draw; luego pulsamos Shift+Alt
+	6.para ver preview de la nueva geometría creada con ZKetch, ésto lo hacemos con el comando "A"
+	7.para utilizar la geometría creada con ZSketch, debemos aplicar Unified Skin
+
+	Aplicación de ZSkecth a una mesh existente:
+	1.con una mesh poligonal activada append una ZSphere, seleccionamos la ZSphere y activamos ZSketch con Shft+A
+	2.ahora podemos utilizar la forma de la mesh activada como proxi de la forma a seguir para la creación nueva de ZSketch
+	3.la opción deln menú Tool/ZSketch/Bind, permite hacer rigging de las partes de las ZSpheres de trazos de ZSketch creados
+	4.para utilizar la geometría creada con ZSketch, debemos aplicar Unified Skin
+
+	Criterios para Unifield Skin
+		1.SDiv: permite configurar la cantidad de geometría en la maya resultante
+		2.Resolution: se refiere a la cantidad poligonal que podemos delimitar para la mesh resultante
+		3.Smooth: se refiere a la transición que permite suavisar la maya en relación a la resolución
+		4.Polish Surface: permite suavisar la mesh, sacrificando detalle del ZSketches por estilismo
+		5.Border:permite crear Edge Loops entre los polygroups por el espesor que le indiquemos
+		6.Allow Tri: permite la creación triángulos poligonales en la maya resultante
+
+RIGGINS MESHESH
+
+	1.con la mesh a la que queremos realizar el rigging le Append una ZSphere, ésta ZSphere, la escalamos y la centramos
+	2.emulamos la forma de la mesh, creando extensiones de ZSpheres en relación a las articulaciones ó arquetipo de nuestra mesh
+	3.luego vamos al menu Tool/Riggins/mesh, y cargamos nuestra mesh cargandola (load) y aplicar el rigging ó huesos que creamos
+	4.ahora ocultamos las copias de las mesh copiadas, y para mover el rigging vamos al menú Tool/Riggings/Bind Mesh, y lo activamos
+	5.ya activado el Bind mesh del menu Riggins, procedemos a mover los "Huesos", ó ZSpheres como articulaciones y se modeverá junto la mesh
+
+SKIN MESH
+
+	1.para poder editar y utilizar los arquetipos que hemos creado tanto de ZSpheres como de ZSketches debemos aplicar Adaptative Skin
+	
+	Creiterios de Adaptative Skin
+		1.Density: ésto contempla el level ó la cantidad de geometría poligonal de la maya resultante
+		2.G Radial: contempla la cantidad de geometría máxima ó mínima global conservando la forma del arquetipo
+		3.Max Twist: configura el paralelismo y contiguidad de los poligonos permitiendo torciones en la maya ó nó, "0", no permite torción
+		4.Proximity: configura la capacidad ó cantidad del detalle en partes donde hay más ZSpheres como manos, pies, otros, en relación a la demas mesh resultante		
+
+RETOPOLOGIA
+	
+	Modalidad Topology
+
+	1.cargamos la mesh a utilizar y la activamos
+	2.cargamos una ZSphere y la activamos
+	3.con la ZSphere Activamos vamos al menú/Tool/Rigging/Select mesh, y seleccionamos la mesh que queremos topologizar
+	4.la ZSphere la utilizaremos como pivot point, la ZSphere la escalamos y llevamos al centro la mesh
+	4.ahora para comenzar como topología de la mesh vamos al menú Tool/Topology/Edit Topology, la ZSphere desaparecerá y podremos topologizar nuestra mesh
+	5.para crear vertices y huesos ó aristas activamos la opción de creación "Draw", es recomendable uzar simetría para una creación más perfecta
+	6.con click izquierdo podemos empezar a crear punto que en su extensión conformarán aristas y polígonos
+	7.con el modo de edición "Mode", podemos mover y ajustar los vertices y aristas sobre la maya que vamos creando
+	8.para terminar una cadena de creación de vertices y aristas debemos hacer click en el canvas para volver a comenzar a crear en otro segmento de la mesh
+	9.para eliminar vertices y aristas debemos utilizar Alt+left+Click
+	10.para previzualizar el presultado de la maya resultante optenida por la topologización accdemos con el comando "A"
+	11.el criterio de creación de nodos ó vertices es libre y un vertice puede unirse con otros para crear aristas y polígonos, así como si con un vertice
+	nos desplazamos sobre una arista y hacemos left click, crearemos otro vertice en ese punto dividiendo la arista en la cual nos posamos para crear el vertice, creando así dos aristas más
+	12.para optener el la maya resultante y poder editarla y trabajar con ella devemos aplicar "Adaptative Skin"
+
+	MOdalidad de proyección
+	
+	1.cuando hemos creado un modelo conseguido a través del método Topology ó sismilar podemos proyectarlo sobre la mesh que tomamos de referencia para tranferirle esa topología
+	2.para transferir la topologia creada a nuestro modelo original debemos abrir el modelo original y Append la mesh con el Topology que creamos
+	3.la mesh con la Topology que creamos debemos subirla sobre la mesh ó maya original en el menú de sub-tool
+	4.la mesh con la Topology podemos subdividirla ó no si así lo requerimos, para el proceso deben estar artivas ambas mesh en el menú sub-tool
+	5.seleccionamos la mesh a la cuál desemos transferir la Topología y vamos al menú/Tool/Sub-Tool/Proyect
+	6.aplicamos la proyección Proyect/Proyect All, y será trasferida la forma de la topología a la mesh orignal en el grado deseado
+
+	Modalidad Brush-Topology
+
+	1.para aplicar esta brush la mesh a la cuál deseamos aplicar la topología no debe de tener niveles de subdivisión
+	2.para aplicar trayectos de topología debemos hacer Left+Click+Draw
+	3.para borrar trayectos sebemos pasar encima ó sobre los trayectos creados con Alt+Left+Click+Draw
+	4.el "size", de la brush condiciona la resolución ó cantidad de puntos desjados en la trayectoria en el recorrido de la brush, así como la capacidad de ajustarse a la mesh original
+	5.es recomendable activar la opción curva del menú Stroke/Curve/Curve Mode - Snap	
+	6.debemos hacer intercepciones de trayectos de la brush sobre la mesh original para generar polígonos y puntos de intercepción
+	7.la creación de vertices con la Control+Left+Click, permite la creación de vertices solo sobre vertices ya creados 	
+	8.la topología se crea cuando tres ó cuatro puntos ó vertices se encuentran
+	9.para borar todos los vertices de trayectos que no conformen polígonos debemos hacer Alt+Left+Click+Draw sobre la mesh original ó proxi
+	10.para crear trayectorias con la opción de edge loops debemos hacer Left+Click+Draw, extendiendo el trayecto hasta el canvas y soltando allí, así se creará un loops sobre la mesh original
+	11.para borrar todos los vertices y trayectos así como los polígonos y geometría creada vamos al menú Stroke/Curve Functions/Delete 
+	12.para suavisar trayectos debemos ir al menú Stroke/Curve Functions/Smooth - Smoothness
+	13.podemos ajustar la capacidad de las brush de ajustarse a los vertices de la mesh original para hacer un mejor seguimiento de la misma
+	para esto vamos al menú Stroke/Curve Modifiers/Curve Snap Distance, allí podremos ajustar a un valor deseado
+	14.para hacer un preview de la maya resultante de la topología debemos hacer Left+Click sobre la mesh original ó proxi, el grosor de la mesh resultante dependerá del "size", de la brush
+	15.paa obtener la maya resultante y poder editarla, con la maya previsualizada debemos ir al menú Tool/SubTool/Split/Groups Split ó Split to parts
+	creiterio de Topology
+		1.PreSubdiv: permite indicar la cantidad de subdivisiones para la previsualización de la mesh resultantes
+		2.TipoSmoothness: indica la cantidad suavisado de la maya resultante
+		3.Max Strip Lenght: permite indica el criterio de la cantidad de vertices por polígonos en la mesh resultantes, por ejemplo, polígonos de 3 - 4 - 5 - 6 caras, otros
+		4.Skin Thickness: permite indicar el grosor ó espesos de la maya resultante
+	
+	Modalidad Remesh
+
+	1.esta modalidad permite remuestrear una mesh con los parámetro que le indiquemos para aumentar ó reducir geometría deseada
+	2.la mesh a transformar no debe de tener niveles de subdivisión
+	criterios de la modalidad Remesh:
+		1.Res: este valor permite indicar la candidad de resolución ó cantidad de geometría deseada, ejemplo: 16 -32 -64 - 128 - 256, otros
+		2.Polist. hace referencia al suavizaso y perdida de detalle ó capacidad de conservar el detalle, valores cercanos a cero conservan el detalle
+		3.Polygr: permite conservar polygroups creados en la mesh y contempla como guía para la creación de la maya resultante
+
+
+DYNAMESH
+	
+	Dynamesh es recomendable para el proceso creativo ó de creación de nuestros artes, para el proceso de detalle definición y renderizado es mejor desactivar Dynamesh
+	y optar por niveles de subdivisión, ya que cada ves que aplicamos Dynamesh se pierde detalle en cada remuestreo de la maya resultante	
+
+	criterios de Dynamesh:
+	1.Polish: este valor permite estilizar ó suavizar la mesh como tambén la perdida de detalle ó definición de la maya original
+	2.Blur:esta opción permite un difuminado ó desenfoque de la mesh resultante
+	3.Proyect: permite proyectar la topología de la maya original en la maya resultante
+	4.Resolution: permite indicar la cantidad de resolución poligonal de la maya resultante, ejemplo: 16- 32 -64 -128 -256,
+	para modelado general del arquetipo y modelo es recomendado crear un Dynamesh de 128, para el afinado de detalle es conveniente llevarlo a 256
+	5.al modelar requeriremos regularmente remuestrear la geometría dinámica de Dynamesh, para esto debemos hacer Control+left+Click, en el canvas y se recostruirá la geometría	
+	6.Groups: permite hacer segmentos se geometría separables de la mesh original
+
+	Añadir y sustraer geometría en Dynamesh activado:
+		Brus CurveLineTool, similar para Insert Cube - Sphere - Cylinder..
+			1.si deseamos agregar ó sistraer geometría debemos indicarlo antes de aplicar la brush activando "Add/Sub", en el modo de edición del menú superior
+			2.Con la Brush seleccionada hacemos Left+Click sobre la mesh que queremos intervenir y arrastramos
+			3.podemos mover, ajustar, escalar con las modalidades Mode, Scale, Rotate, Deformation
+			4.el grosor ó espesor de la proyección dependerá de "Size", de la brush
+			5.haciendo Left+Click, en los estremos de la proyección podemos hacer movimientos libres conservando su forma lineal
+			6.la proyección se crea un modo que podemos llamar de edición en cual podemos hacer ajuste, este modo lo podemos invertir para ajustar la mesh a intervenir con Control+Left+Click
+			7.ésta proyección lienal de creada por una línea la podemos hacer curva, haciendo Left+Click sobre la curva y arrastrando
+			8.en el modo de edición "Add/Sub", podemos sumar ó sustraer esta proyección a la mesh base haciendo Control+Left+draw sobre el canvas una ves para salir
+			del modo de edición de la brush y crear dos geometrías, más si hacemos Control+Left+Draw por segunda vez, ambas geometrías se convertirán en una sola, agregando formas
+			9.al agregar las brushes de Insert elements, si las agregamos con Alt pulsado éstas sustraerán geometría
+
+		Brush Slice Curve - Circle - Rect
+			1.Las brush Slice dividen la geometría poligonalmente y en grupos bien definidos
+			2.para aplicar esta brush debemos aplicar Control+Shift+Draw
+			3.para fijar los resultados en la maya resultante debemos aplicar Control+Draw en el canvas una ves y se crearán los polygroups que definimos en la proyección en mesh resultante
+			4.para dividir la geometrí en segmentos diferentes a través de los polygroups creados debemos ir a menú Tool/Geometry/Dynamesh/Groups y activar esta opción antes de aplicar la brushes Slice
+			5.si desactivamos la opción en menú Tool/Geometry/Dynamesh/Groups, y nuevamente hacemos Control+Draw en el canvas Dynamesh fucionará todas las partes creadas anteriormente en una sola mesh
+
+
+UVs
+
+	UV Master criterios y desarrollo
+		la mesh no debe tener niveles de subdivisión, de lo contrario tendremos de trabajar con un clone.
+		Antes de comenzar a utilizar UV Master es recomendable realizar todos los Polygroups que consideremos como las partes resultantes de Uv Master.
+		Para buscar mapas que nos ayuden a la visualización de nuestros Uvs vamos LightBox/Zbrush/ZStartUp/ZPlugins/UVMaster
+
+		
+		1.Unwrap y Unwrap All: permiten abrir ó extender los Uvs que conforman la mesh de forma plana ó 2d para verlos y editarlos
+		2.Simetry: permite trabajar simétricamente la edición de UVs
+		3.Poygroups: permite la generación de partes ó segmentos de uvs para su extracción y edición a través de poligrupos
+		4.Used Existing UVs Seam: permite utilizar guias que creemos para indicar nuestros propios criterio de cortes para generar los nuevos Uvs de la mesh
+		5.Enable Control Painting: permite activar las opciones de pintura que permitirán indicar ó proteger partes de la maya con nuestro criterios de corte
+		6.Attract: permite indicar zonas ó líneas de cortes a traves de un pintado con color para crear los criterio de corte para generación de los nuevos Uvs
+		7.Protect: permite indicar zonas que deseamos proteger para que en éstas zonas no se generen cortes ó divisiones de la mesh por medio UVs como rostros y partes de detalle
+		8.Erase: permite borrar y editar la pintura creada tando para Attract como de Protect
+		9.AttractFromAmbientOccl: permite la generación de Uvs tomando como criterio un mapa de auto generado de oclución ambiental
+		10.Density: permite indicar densidades de Uvs en zonas complejas y donde indiquemos, para activar Density, debe estar activado Enable Control Painting.
+		Activamos Density y luego indicamos su valor de suavisar ó aumentar la geometrí en valores que van /4 -/3 -/2 - /1 (1) X1 - X2 - X3 - X4.
+		Luego que indicamos el valor en ("/" ó "X"), procedemos a pintar haciendo las reservas en los lugares que sedemos más geometría ó menos geometría indicado así el criterio a usar   
+		11.Work On Clone: esta opción permite la generación de un clón ó copia de nuestra maya para trabajar con ésta a baja resolución t luego transferir los nuevos UVs generados
+		12.Copy Uvs: permite copiar los Uvs generados en la maya clonada para luego transferirlos a nuestro modelo inicial
+		13.Paste Uvs: permite pegar los Uvs copiados de la maya clonada anteriormente
+		14.Flatten: permite expandir ó aplanar de forma 2d para previsualizar y editar los uvs y sus poligrupos ó partes.
+		en el modo flatter podemos orbitar y utilizar todas herramientas para mover, escalar y rotar las partes de los uvs con los modos "Move", "Scale", "Rotate"
+		15.CheckSeam:esta opción te permite ver los criterios de corte que ha usado Zbrush para hacer las divisiones de los Uvs y partes de la mesh en forma de pintado
+		16.Clear Map:permite borrar el mapa ó la acción de pintura generada por Attract y Protect mode
+		17.LoadCtrMap:permite cargar un archivo de Seam ó guias de cortes ó criterios de corte creados en otras aplicaciones
+		18.SaveCtrMap:permite guardar un archivo de los criterios de cortes creados para generar los uvs de la mesh trabajada 
+
+
+SIMETRY
+
+	método con deformación:	
+	1.Para hacer una mesh simétrica de un lado al otro, debemos enmascarar el lado que deseamos que sea reflejado al otro lado
+	2.luego de enmascarar el área a reflejar vamos a menú/Tool/Deformation/Smart Resym (XYZ)
+
+
+GEOMETRY
+
+	Panel Loops
+	panel loops es indicado para división de geometría a través de grupos con caracteísticas de bavel y evolución en la misma mesh
+	para poder aplicar panel loops es preciso convertir esas partes primero en Polygroups antes de aplicar el efecto 
+	criterios de panel loops:
+		1.Loops: indica la cantidad de segmentos creados en la extrución
+		2.Double: permite indicar si el resultado contendrá dobles caras de requerirlo la extrusión
+		3.Thickness: indica la cantidad ó proyección de la extrusión
+		4.Polish: indica suavisado y transición ó armonía del resultado (recomendado)
+		5.Ignore Group: esta opción inabilita la herramienta al hacer ignorar los líneas de cortes de los grupos
+		6.Regroup Panel: esta opción permite redibujar los los grupos existenten al aplicar el resultado de la extrusión
+		7.Regroup Loops: esta opción permite redibujar los loops resultantesal aplicar el resultado de la extrusión
+		8.Bavel: permite configurar la separación ó distancia de las partes de geometría resultante
+		9.Elevatión:
+
+FIBERMESH
+
+	para aplicar Fibermesh es preciso activar un mesh editable
+	para aplicar  Fibermesh debemos enmascarar el área desea ó crear polygroups de la misma, de lo contrario aplicará Fibermesh a toda la mesh
+	
+	Modifiers - criterios:
+		1.MaxFibers: hace referencia a la cantidad de fibras aplicadas
+		2.DeV: indica la variación de la densidad de las fibras
+		3.ByMask: configura el comportamiento aleatorio de la fibras sobre la máscara creada para generar el Fibermesh
+		4.ByArea: contempla el tamaño de las fibras en relación al tamaño de la máscara creada para generar el Fibermesh
+		5.Inbed: configura la relación del relieve ó depresión de las roots de la fibras de la Fibermesh
+		6.Lenght: longitud de la fibra, desde la raíz de la mesh hasta su extensión
+		7.Lev: variación de la longitud de las fibras
+		8.Width Profile: permite configurar el grosor de cada fibra en su parte media hacia la raíz
+		9.Coverage: permite configurar el grosor global ó general de cada una de nuestras fibras
+		10.CoV: permite configurar la variación en el ancho de nuestras fibras
+		11.ScaleRoot: permite escalar la fibermesh en la raíz ó punto de inicio ó creación
+		12.Scale Tip: permite escalar la fibermesh en el final de extremidad ó lungitud de la fibermesh
+		13.Slim: este valor permite hacer más desgadas nuestra Fibermesh
+		14.SlV: este valor permite generar variación en el grosor de nuestra Fibermesh
+		15.Revolve Radius: permite hacer profusión de Fibermesh volcado sobre la mesh
+		16.Revolve Rate: permite indicar la cantidad ó frecuencia de prosución de revolve
+		17.ReV: permite indicar variación en la cantidad frecuencia de profusición sobre revolve
+		18.Twist: permite hacer torción en la Fibermesh
+		19.TwV: permite indicar variación en la torción en la Fibermesh
+		20.Gravity: permite indicar el comportamiento de grabedad en la Fibermesh, tanto en valores positivos como negativos
+		21.NoV: permite indicar variación aplicada en la gravedad a las Fibermesh
+		22.HTangent: permite cambiar la dirección de los normales de de la mesh en la orientación horizontal
+		23.HtV_ permite indicar variación en la dirección de las normales de la mesh
+		24.VTangent: permite cambiar la dirección de las normales de la mesh en la orientación verical
+		25.VtV: permite indicar variación en la dirección de las normales de lamesh
+		26.Clumps: permite ajustar un valor abundanción ó disminución de Fibermesh
+		27.ClV. permite indicar un valor de variación de la abundanción y disminución de Fibermesh
+		28.Color Profile: permite indicar en un curva la interpolación y porcenajes de color entre el Roots y las Tips de Fibermesh
+		29.BColor: permite seleccionar un color de base ó Roots e indicar un calor exponencial del mismo 
+		30.BcV: permite indicar un valor de variación para el color de base ó roots
+		31.TColor: permite seleccionar un calor para la entensión de la longitud de la Fibermesh e indicar un valor exponencial
+		32.TcV: permite indicar un valor de variación para el color de la extensión de la Fibermesh
+		33.Maz Size: permite ajustar una textura perqueña al tamaño requerido para usar una textura para Fibermesh
+		34.Ht: permite indicar la cantidad de H-Titles que será duplicada ó remuestreada la textura  en horizontal al ser usada en Fibermesh
+		35.Vt: permite indicar la cantidad de V-Titles que será duplicada ó remuestreada la textura  en vertical al ser usada en Fibermesh
+		36.Transparent: permite activar las opciones de transparencias de las texturas para su uso como parcialmente ne alphas
+		37.Antialiased: permite activar las opciones de suavizado de texturas
+		38.Profile: permite indicar la cantidad de polígonos con los que son construidos cada fibra, así serán planos triangulares, cuadrados, otros
+		39.Segments: permite indicar la cantidad de segmentos en loops de dividen cada fibra de la fibermesh que oermiten la aleatoriedad y acabados
+		40.Morph Target Guided: esta opción permite aplicar fibras tomando en cuenta los patrones de edición de Morph Target
+		40.BPR Setting/RootAniso: estas opciones de anisotropics permiten ajustar los normals de la raíz de la mesh resultante de Fibermesh para una myor sombre, reflexión, otros
+		41.BPR Setting/TipAniso: estas opciones de anisotropics permiten ajustar los normals de la extesión de la mesh resultante de Fibermesh para una myor sombre, reflexión, otros
+		42.BPR Setting/SubDiv: permite indicar la cantidad de subdivión Smooothhness ó suavizado a cada fibra mejorando la transición entre sis segmentos
+		43.BPR Setting/Sides: permite indicar la cantidad de subdiviones que componen cada fibra, si se renderizará cada fibran 2 - 3 - 4 -5 lados
+		44.BPR Setting/Radius: permite indicar el grosor ó radio de cada fibra de Fibermesh
+
+	para poder editar y modificar la fibras individualmente a través del uso de brushes debemos activar el preview render
+	para ésto le damos (Acept): Create a New SubTool form 3D Fibers
+
+	si en el área donde se aplicó el Fibermesh a través de un máscara también habiamos creado en ésta área polygroups podriamos también en este caso, asignar la Fibermesh creada a los poligrupos
+	que están en la misma ubicación que la máscara que se usó para crear la Fibermesh.
+		1.para ésto debemos elimar la máscara de la mesh con este procedimiento para que no sea eliminado el previw de Fibermesh, vamos al Menú/Tool/Masking/Clear
+		2.luego le damos Acept, y creamos una sub-tool de preview de render, así ésta se segmentará como la disposición de los poligroups y sus propiedades como color y otros
+
+
+MICROMESH
+	
+	con la herramienta microhesm podemos modular una mesh dentro otra mesh o Fibermesh, haciendo unso de máscaras y poligrupos
+		1.creamos la forma de la mesh a modular con Micromesh
+		2.seleccionamos y activamos la mesh o Fibermesh que queremos usar como entorno modulador, con la opción de aplicarle máscaras y poligrupos
+		3.ahora vamos a Menú/Tool/Geometry/Modify Topology/MicroMesh, y seleccionamos la mesh a modular
+		4.leugo activamos las opciones de draw Micromesh en las opciones de render, vamos al Menu/Render/Render Propieties/Draw Micromesh
+		5.para ver los resultados de render accionamos el comando Shift+R
+
+	
+
+		
+		
+
+
+	
+
+	
+	
+
+
+

@@ -1,0 +1,94 @@
+
+Lightbox
+
+1.para acceder al menú lightbox, vamos al menú Texture ó al menú creado para lightbox especial "LBox", ó con su shortcut Alt2+L
+
+2.cargamos una textura en LBox/Textura
+
+3.ahora le damos LBox/LightBox imges/Add To SpotLights
+
+4.para encender y aparagar spotlight ó Turn on/off, lo podemos hacer con su shortcut Shift+Z
+
+5.luego de encendido spotlight, para activar ó desactivar la diana de opciones para utilizar spotlight, lo hacemos con su shortcut "Z"
+
+6.para cargar múltiples archivos dentro de spotlight, primero activamos spotlight "Shift+Z", luego vamos al panel LBox/Lightbox/Import, seleccionamos el grupos de imágenes que deseamos en el explorador y las cargamos
+
+7.también podemos guargar y cargas grupos ó sets de imágenes para utilizarlas en futuros proyectos, en el menú Texture/Save Spotlight y Load Spotlight
+
+
+
+controlar las imágenes dentro de SpotLight
+
+1.encendemos spotlight "shift+Z", para mover la diana de opciones de spotlight, hacemos pick and draw en su pivot, ó hacemos click en cualquier parte del canvas para reubicar la diana de opciones
+
+2.para mover la imágen dentro del camvas, hacemos click and draw, dentro del radio de la diana de opciones (sin tocar el pivot de la diana de opciones)
+
+3.seleccionar imágenes dentro del spotlight, cuando hay varias imágenes dentro del spotlight abierto; hacemos click en la imagen a seleccionar, la imágen selecciona tendrá un recuadro rojo; sino tienes ninguna imágen seleccionada, todas las imágenes se moverán como un sola
+
+4.el pivot de la diana de opciones sirve de pivot para las imágenes al aplicar propiedades de rotación, escala y transformaciones, para transformaciones más precisas podemos precionar "Shift", para transformar en grados
+
+5.para rotar y escalar de forma libre una imagen seleccionada, podremos hacer click and draw+Control, en el canvas, fuera de la imágen
+
+
+descripción de los diferentes iconos u opciones del spotlight
+
+1.title proportional, este da preview de todas las imágenes tomando en cuenta su proporcion, tamien, permite ordenar las imégenes en linea todas con un mismo tamaño
+
+2.title selected, permite hacer una preview en primer plano y tamaño real de la imágen seleccionada, mientras las otras imágenes quedan en la parte de abajo en su tamaño de miniatura
+
+3.para reemplazar una imágen por otro, dentro de unos de los modos de visualización como title proporcional ó title selected, le damos doble click a la imágen que queremos que reemplace a la que esta seleccionada (no funcionó)
+
+4.title unifiel te permite reubicar tolas imágenes al costado izquierdo todas a un mismo tamaño como mniaturas, así podremos apreciar todas las imágenes
+
+5.las opciones form y back, permiten trabajar con varias imágenes a la vez, permitiendo decidir cual imágen esta que otra, así podemos decidir cual imágen solapa y es solapada por otra
+
+6 la opción delet, permite eliminar una imágen que tengamos seleccionada
+
+7.flip V, permite invertir ó reflejar la imágen de forma vertical
+
+8.flip H, permite invertir ó reflejar la imágen de forma horizontal
+
+9.tile V, permite modular ó repetir la imaven en su mismo canvas vericalmente
+
+10.tile H, permite modular ó repetir la imaven en su mismo canvas horizontalmente
+
+11.grid, permite crear una crilla sobre la imágen seleccionada para tener una referencia de modulación sobre la imágen
+
+12.restore, te permite restaurar la imágen selecciona a su estado en el cual se importó de forma gradual
+
+13.opacity permite graduar la opacidad de la imágen, esta opción no repercula en la definición ó capacidad de proyección de imágen sobre objetos ó meshes
+
+14.fade ó desteñir, permite graduar la intencidad de las imágenes, aclarando y oscureciendo las imágenes para su proyección sobre elementos ó meshes
+
+15.clone brush, para activar la herramienta debo tener una imágen seleccionada, el punto de muestreo de clonación lo indica el pivot, de la diana de opciones y su ubicación, (similar a photoshop)
+	
+	15.1.el tramaño del muestreo lo indica el size brush, y la intensidad con intensity
+
+
+
+para proyectar y pintar las imágenes sobre las meshes
+
+1.debemos desativar el modo de "add", aplicación
+
+2.debemos activar el modo de aplicación "rgb"
+
+3.luego activamos el spotlight y colocamos la imágen sobre la mesh que deseamos proyectar ó pintar, luego para empezar la proyección desactivamos la diana de edición, con el shortcut "Z"
+
+4.ahora procedemos a pintar con la brush standard
+
+5.para variar la intensidad de la proyección de la imágen ó pintado, bajamos la intensidad de valor de "rgb"
+
+6.nudge brush, esta brush permite mover ó modificar los pixeles de la imágen seleccionada, para restaurar la imágen, tomamos el botón de la diana nudle y lo arrastramos hasta el punto deseado (el brush se controla con brush size e intendity)
+
+	6.1.para subdividir ó posterizar el resultado de la distorción de la brush nudge, sobre la imágen, los hacemos con el comando "D", bajamos subdiviciones con Shift+D
+
+
+7.para proyectar nueva imágen al modelo, debemos desactivar el modo de edición "Add", y activar el modo "rgb", luego agregamos una textura y la agregamos al spotlight, luego encedemos el spotlight
+
+	7.1.para crear ó desarrollar una textura para nuestro modelo es altamente recomendable hacerlos con una versión de nuestro modelo en alta resolución, para una mayor calidad al tener nuestra mesh una mayor capacidad de detalle pologonal ó de pixeles
+
+	7.2.ahora en la diana de opciones seleccionamos spotlight radius, y movemos circularmente la diana para graduar el tamaño del radio de la brush de aplicación
+
+	7.3.antes que quitar la diana de opciones para empezar a aplicar ó proyectar la imágen ó textura sobre el modelo, esrecomendable saber que no debemos nover la perspectiva ó orbitar dentro del canvas para no perder los ajustes de la imágen a proyectar en relación al modelo
+
+	16.4.ahora sí, para aplicar ó proyecta la imágen ó textura sobre el modelo, le damos al shortcut "Z", para quitar la diana de opciones y entonces sí proceder a proyectar la imágen sobre el modelo

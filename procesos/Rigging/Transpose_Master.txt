@@ -1,0 +1,27 @@
+
+TRANSPOSE MASTER
+
+	
+	1_desarrollamos nuestro modelo en Polymesh low-high poly, ó en Dynamesh
+
+	2_si el motivo tiene diferentes niveles de subdivisión, sea en "Sub-division ó en Dynamic-sub-division", colocamos las sub-divisionamoes en el nivel más bajo
+
+	3_ahora seleccionamos ó activamos como sub-tool, activa la "polymesh", deseada a la cuál deseamos plicar el Rigging
+
+	4_ahora vamos al "panel/Plugins/Transpose Master/", (Alt2 + O), y activamos la opción "ZSphere Rig", por lo general ya biene activa por defecto
+
+		4.1_ZSphere Rig: permite acoplar todas las mehes que conforman el modelo deseado para que este sea usado automáticamente al crear el skeleton de zpheres
+
+	5_ahora aplicamos en "Plugin/Transpose Master/TPoseMesh", así, ésta procesará toda la geometría y hará un proxi, de la mesh, con una "ZPhere", 
+
+	dentro para que a partir de esta comencemos a realizar el "Skeleton", con que haremos el Rigging
+
+	5_ahora creamos más "Spheres", que correspondan a la cantidad de articulaciones de nuestro motivo, al terminar de realizar este proceso
+
+	6_vamos a "Sub-Tools/Rigging/Bind Mesh", para que así ya podamos mover la geometría de nuestro mesh, a través del skeleton conformado con la "Zphere"
+
+	7_al terminar de modificar la posición ó pose de nuestro motivo a través del skeleton de zphere creado vamos a "Plugins/Transpose Master/Tpose-SubToolT"
+
+		7.1_Tpose-SubToolT: esta opción nose permite la posibilidad de recostruir la subtool, original que teníamos en un comienzo con todas sus tools iniciales, 
+
+		más la nueva posición de la mesh, a la cuál le cambiamos su pose con el "Transpose Master"

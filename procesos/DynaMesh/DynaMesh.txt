@@ -1,0 +1,112 @@
+
+
+DYNAMESH
+	
+	Dynamesh es recomendable para el proceso creativo ó de creación de nuestros artes, para el proceso de detalle 
+
+	definición y renderizado es mejor desactivar Dynamesh
+
+	y optar por niveles de subdivisión, ya que cada ves que aplicamos Dynamesh se pierde detalle en cada remuestreo 
+
+	de la maya resultante criterios de Dynamesh:
+
+
+	1.Polish: este valor permite estilizar ó suavizar la mesh como tambén la perdida de detalle ó definición de la maya 
+
+	original
+
+
+	2.Blur:esta opción permite un difuminado ó desenfoque de la mesh resultante
+
+
+	3.Proyect: permite proyectar la topología de la maya original en la maya resultante
+
+
+	4.Resolution: permite indicar la cantidad de resolución poligonal de la maya resultante, ejemplo: 16- 32 -64 -128
+
+	-256, para modelado general del arquetipo y modelo es recomendado crear un Dynamesh de 128, para el afinado de 
+
+	detalle es conveniente llevarlo a 2565. al modelar requeriremos regularmente remuestrear la geometría dinámica 
+
+	de Dynamesh, para esto debemos hacer Control+left+Click, en el canvas y se recostruirá la geometría	
+
+
+	6.Groups: permite hacer segmentos se geometría separables de la mesh original
+
+
+	Añadir y sustraer geometría en Dynamesh activado:
+
+
+		Brus CurveLineTool, similar para Insert Cube - Sphere - Cylinder..
+
+
+			1.si deseamos agregar ó sistraer geometría debemos indicarlo antes de aplicar la brush activando 
+
+			"Add/Sub", en el modo de edición del menú superior
+
+
+			2.Con la Brush seleccionada hacemos Left+Click sobre la mesh que queremos intervenir y arrastramos
+
+
+			3.podemos mover, ajustar, escalar con las modalidades Mode, Scale, Rotate, Deformation
+
+
+			4.el grosor ó espesor de la proyección dependerá de "Size", de la brush
+
+
+			5.haciendo Left+Click, en los estremos de la proyección podemos hacer movimientos libres conservando 
+
+			su forma lineal
+
+
+			6.la proyección se crea un modo que podemos llamar de edición en cual podemos hacer ajuste, este 
+
+			modo lo podemos invertir para ajustar la mesh a intervenir con Control+Left+Click
+
+
+			7.ésta proyección lienal de creada por una línea la podemos hacer curva, haciendo Left+Click sobre 
+
+			la curva y arrastrando
+
+
+			8.en el modo de edición "Add/Sub", podemos sumar ó sustraer esta proyección a la mesh base haciendo 
+
+			Control+Left+draw sobre el canvas una ves para salir
+
+
+			del modo de edición de la brush y crear dos geometrías, más si hacemos Control+Left+Draw por segunda 
+
+			vez, ambas geometrías se convertirán en una sola, agregando formas
+
+
+			9.al agregar las brushes de Insert elements, si las agregamos con Alt pulsado éstas sustraerán 
+
+			geometría
+
+
+		Brush Slice Curve - Circle - Rect
+
+
+			1.Las brush Slice dividen la geometría poligonalmente y en grupos bien definidos
+
+
+			2.para aplicar esta brush debemos aplicar Control+Shift+Draw
+
+
+			3.para fijar los resultados en la maya resultante debemos aplicar Control+Draw en el canvas una 
+
+			ves y se crearán los polygroups que definimos en la proyección en mesh resultante
+
+
+			4.para dividir la geometrí en segmentos diferentes a través de los polygroups creados debemos 
+
+			ir a menú Tool/Geometry/Dynamesh/Groups y activar esta opción antes de aplicar la brushes Slice
+
+
+			5.si desactivamos la opción en menú Tool/Geometry/Dynamesh/Groups, y nuevamente hacemos 
+
+			Control+Draw en el canvas Dynamesh fucionará todas las partes creadas anteriormente 
+
+			en una sola mesh
+
+

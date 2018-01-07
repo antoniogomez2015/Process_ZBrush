@@ -1,0 +1,487 @@
+
+
+
+
+	ZBrush ZModeler
+
+		
+		Review ZBrush 4R7 en español ::: Parte 1
+			https://www.youtube.com/watch?v=lyG54CiZ5Po&t=489s
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+	ZModeler: Shortcut: Control + Shift + Z
+
+
+		ZModeler Options: Mouse Right Click | Spacebar, sobre vertex, edge, face
+
+
+
+	Vertex:
+	_______
+
+
+		Vertex Actions:
+		_______________
+
+
+			_Bridge:
+
+				_ésta opción nos permitirá crear puentes ó edges, entre vertexs,  seleccionados
+
+
+					_Two Point:
+
+						_ésta opcíón nos permitirá crear un edge, entre dos vertex, distantes
+
+						(no funciona hasta ahora)
+
+
+					_Ring:
+
+						_ésta opción dividirá cada polygon, en dos triads, ó lo que es lo mismo
+
+						unirá cada vertex, atravezando cada polygon, de ésta manera, dividirá
+
+						a los cuatro polygons circundantes el vertex, sobre el cuál, hemos
+
+						hecho click, y los dividirá en 8, triads
+
+
+					_Crease Ring:
+
+						_ésta opción creará "crease", en cada edge, éxtra creado para que así,
+
+						el sistema resultante contemple bordes duros para el proceso de 
+
+						subdivisión surface
+
+
+					_ReGroup Ring:
+
+						_ésta opción contemplará la creación de polygroup, en cada triads, 
+
+						generado
+
+
+					_Do Not Crease:
+
+						_ésta opción nos contempla la creación de crease, en la generación de
+
+						edges, éxtras y triads, generados
+
+
+					_Do Not Regroup:
+
+						_ésta opcíón no contemplará la generación de polygroup, en el proceso
+
+						de generación de triads
+
+
+			_Crease:
+
+				_ésta opción nos permitirá agregar crease, a los cuatro edges, que circundan el vertex,
+
+				sobre el cuál, hemos hecho click
+
+
+			_Delete:
+
+				_ésta opción nos permitirá eliminar el vertex, sobre el cuál, hemos hacho click, para
+
+				que así, los polygons, circundantes sean simplificados ha triads
+
+
+			_Do Nothing:
+
+				_ésta opción desabilitará ha herramienta temporalmente
+
+
+			_Extrude:
+
+				_ésta opción nos permitirá extruir un vertex, sobre el cuál, hayamos hecho click,
+
+				para que así, nuevos triads, sean generado en el espacio
+
+
+			_Make Curve:
+
+				_ésta opción nos permitirá crear spline, sobre los vertex, y edges, para que así, a 
+
+				través, de éstos podamos hacer el efecto de bevel
+
+
+				_para lo cuál, debemos hacer primeramente click, sobre un vertex, para posteriormente
+
+				volver ha hacer click, sobre el mismo vertex, y posteriormente hacer "spacebar", sobre
+			
+				éste mismo vertex
+
+
+				_para que así, si poder continuar ha hacer click, sobre los demás vertex, consecutivos
+
+				para que así, se vayan generando splines, sobre los vertex, y edges
+
+
+				_de ésta manera, un vez generadas las splines, podremos posarnos sobre una de éstas y
+
+				hacer "spacebar", para que así, podamos acceder a las opciones de "Curve Actions"
+
+
+
+					_Bevel:
+
+						_ésta opción nos permitirá crear el efecto bevel, sobre las splines,
+
+						para que así, él efecto bevel, se aplique sobre los vertex, 
+
+						seleccionados
+
+
+					_Delete:
+
+						_ésta opción nos permitirá borrar las splines, generadas previamente
+
+
+					_All Curves:
+
+						_ésta opción es por defecto la cuál, permitirá aplicar el efecto sobre
+
+						todas las splines, generadas previamente
+
+
+					_Single Row:
+
+						_ésta opción nos permitirá generar un sólo insert, dentro del bevel,
+
+						generado
+
+
+					_Two Rows:
+
+						_ésta opción nos permitirá generar dos insert, dentro del bevel,
+
+						generado
+
+
+					_Four Rows:
+
+						_ésta opción nos permitirá generar cuatro insert, dentro del bevel,
+
+						generado
+
+
+					_Eight Rows:
+
+						_ésta opción nos permitirá generar ocho insert, dentro del bevel,
+
+						generado
+
+
+					_Linear Edge:
+
+						_ésta opción nos permitirá generar el efecto bevel, bajo un 
+
+						interpretación de las splines, de forma lineal
+
+
+					_Sharp Edge:
+
+						_ésta opción nos permitirá generar el efecto bevel, bajo un 
+
+						interpretación bien definida
+
+
+					_Soft Edge:
+
+						_ésta opción nos permitirá generar el efecto bevel, bajo un 
+
+						interpretación suave
+
+
+					_Edge Sharpness:
+
+						_ésta opción nos permitirá generar el efecto bevel, bajo un 
+
+						interpretación personalizable por nosotros
+
+
+
+			_Mask:
+
+				_ésta opción nos permitirá crear máscaras a partir de vertex, seleccionados
+					
+
+
+			_Move:
+
+				_ésta opción nos pemritirá mover vertex
+
+
+					_By Brush Radius:
+
+						_ésta es la opción por defecto la cuál, nos permitirá mover libremente
+
+						los vertex, seleccionados influenciados por el tamaño de la brush
+
+
+					_Infinite X:
+
+						_ésta opción es idéntica a la opción "By Brush Radius", con la
+
+						diferencia que ésta opción contemplará la simetría en el lado opuesto
+
+
+					_Infinite Y:
+
+						_ésta opción es idéntica a la opción "By Brush Radius", con la
+
+						diferencia que ésta opción contemplará la simetría en el lado opuesto
+
+
+					_Infinite Z:
+
+						_ésta opción es idéntica a la opción "By Brush Radius", con la
+
+						diferencia que ésta opción contemplará la simetría en el lado opuesto
+
+
+					_Infinite XYZ:
+
+						_ésta opción es idéntica a la opción "By Brush Radius", con la
+
+						diferencia que ésta opción contemplará la simetría en el lado opuesto
+
+						de forma interactiva
+
+
+					_Infinite Depth:
+
+						_ésta opción es idéntica a la opción "By Brush Radius", con la
+
+						diferencia que ésta opción contemplará la simetría en el lado opuesto
+
+						en relación a posición del plano de la cámara
+
+
+			_QMesh:
+
+				_ésta opción es similar a la opción de extrude, más la opción de qmesh, es interactiva
+
+				y permite fusionar la geometría generada a partir de vertex, extruidos entre otras 
+
+				características de la modalidad de qmesh
+
+
+					_Point:
+
+						_ésta es la opción por defecto la cuál, no se pueda desactivar la cuál,
+
+						nos permitirá extruir vertex
+
+
+					_Full Step:
+
+						_ésta opción nos permitirá hacer extruciones libres
+
+
+					_Half Step:
+
+						_ésta opción nos permitirá hacer extruciones con una proyeción a la
+
+						mitad de la anterior en modelaciones de extrusiones
+
+
+					_Quarter Step:
+
+						_ésta opción nos permitirá hacer extruciones con una proyeción a un
+
+						cuarto de la anterior en modelaciones de extrusiones
+
+
+			_Slide:
+
+				_ésta opción nos permitirá desplazar los vertex, sobre los edges, para que así,
+
+				podamos hacer ajustes que se señan a la superficie
+
+
+					_By Brush Radius:
+
+						_ésta opción moverá el vertex, en relación al tamaño del brush,
+
+						(todos tienen un comportamiento similar al desplzar los vertex, sobre
+
+						los edges, en cualquiera de las cordenadas axis)
+
+
+					_Infinite X:
+
+						_ésta opción moverá el vertex, en relación a la cordenada X
+
+						(todos tienen un comportamiento similar al desplzar los vertex, sobre
+
+						los edges, en cualquiera de las cordenadas axis)
+
+
+
+					_Infinite Y:
+
+						_ésta opción moverá el vertex, en relación a la cordenada Y
+
+						(todos tienen un comportamiento similar al desplzar los vertex, sobre
+
+						los edges, en cualquiera de las cordenadas axis)
+
+
+
+					_Infinite Z:
+
+						_ésta opción moverá el vertex, en relación a la cordenada Z
+
+						(todos tienen un comportamiento similar al desplzar los vertex, sobre
+
+						los edges, en cualquiera de las cordenadas axis)
+
+
+
+					_Infinite XYZ:
+
+						_ésta opción moverá el vertex, en relación a la cordenadas XYZ
+
+						(todos tienen un comportamiento similar al desplzar los vertex, sobre
+
+						los edges, en cualquiera de las cordenadas axis)
+
+
+
+					_infinite Depth:
+
+						_ésta opción moverá el vertex, en relación a la profundidad de la 
+
+						cámara, (todos tienen un comportamiento similar al desplzar los vertex,
+
+						sobre los edges, en cualquiera de las cordenadas axis)
+
+
+
+			_Split:
+
+				_ésta opción nos pemritirá hacer inserts, circulares a partir de un vertex, a través,
+
+				de diferentes criterios
+
+
+					_Point:
+
+						_ésta opción nos permitirá crear un ring nuevo de edges, ha modo de
+
+						insert, a partir del vertex, sobre el cuál, hemos hecho click
+
+
+					_Ring:
+
+						_ésta opción nos permitirá crear un ring, a partir de los edges, del
+
+						área perimetral del vertex, sobre el cuál, hemos hecho click, lo cuál,
+
+						cambiará la topología existentes previamente
+
+
+					_Keep Quads Center:
+
+						_ésta opción sólo creará quads, para la generación del insert, ring
+
+
+					_Triangule Center:
+
+						_ésta opción sólo creará triads, para la generación del insert, ring
+
+
+					_Crease Ring:
+
+						_ésta opción creará adicionalmente un "crease", sobre el ring generado
+
+
+					_Regroup Ring:
+
+						_ésta opción creará un nuevo polygroup, a partir del insert, ring,
+
+						generado
+
+
+					_Do Not Crease:
+
+						_ésta opción no creará adicionalmente un "crease", sobre el ring 
+
+						generado
+
+
+					_No Not Regroup:
+
+						_ésta opción no creará un nuevo polygroup, a partir del insert, ring,
+
+						generado
+
+
+
+			_Stich:
+
+				_ésta opción nos permitirá fusionar dos vertex, para así, podamos soldar éstos
+
+
+					_Two Points:
+
+						_ésta es la opción por defecto la cuál, no se puede desactiva la cuál,
+
+						permite fusionar dos vertex
+
+
+					_To End Point:
+
+						_ésta opcíon fusionará los vertex, en la posición del último vertex,
+
+						seleccionado
+
+
+					_To Mid Point:
+
+						_ésta opcíon fusionará los vertex, en la posición del medio entre los
+
+						vertex, seleccionados
+
+
+					_To Start Point:
+
+						_ésta opcíon fusionará los vertex, en la posición del primer vertex,
+
+						seleccionado
+
+
+
+			_Transpose:
+
+				_ésta opción nos permitirá colocar el transpose, en la posición del vertex, sobre el
+
+				cuál, hagamos click
+			
+
+
+
+
+		-------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+

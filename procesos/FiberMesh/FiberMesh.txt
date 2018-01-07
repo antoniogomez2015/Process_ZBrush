@@ -1,0 +1,229 @@
+
+Tutoriales:
+
+	Tutorial Mover raíces de pelos con Fibermesh en Zbrush
+
+		https://www.savetubevideo.com/?v=ksYaNOFeRbU
+
+
+
+
+
+FIBERMESH
+
+	para aplicar Fibermesh es preciso activar un mesh editable
+
+	para aplicar  Fibermesh debemos enmascarar el área desea ó crear polygroups de la misma, de lo contrario aplicará 
+
+	Fibermesh a toda la mesh
+
+	
+	Modifiers - criterios:
+
+
+		1.MaxFibers: hace referencia a la cantidad de fibras aplicadas
+
+
+		2.DeV: indica la variación de la densidad de las fibras
+
+
+		3.ByMask: configura el comportamiento aleatorio de la fibras sobre la máscara creada para generar 
+
+		el Fibermesh
+
+
+		4.ByArea: contempla el tamaño de las fibras en relación al tamaño de la máscara creada para generar 
+
+		el Fibermesh
+
+
+		5.Inbed: configura la relación del relieve ó depresión de las roots de la fibras de la Fibermesh
+
+
+		6.Lenght: longitud de la fibra, desde la raíz de la mesh hasta su extensión
+
+
+		7.Lev: variación de la longitud de las fibras
+
+
+		8.Width Profile: permite configurar el grosor de cada fibra en su parte media hacia la raíz
+
+
+		9.Coverage: permite configurar el grosor global ó general de cada una de nuestras fibras
+
+
+		10.CoV: permite configurar la variación en el ancho de nuestras fibras
+
+
+		11.ScaleRoot: permite escalar la fibermesh en la raíz ó punto de inicio ó creación
+
+
+		12.Scale Tip: permite escalar la fibermesh en el final de extremidad ó lungitud de la fibermesh
+
+
+		13.Slim: este valor permite hacer más desgadas nuestra Fibermesh
+
+
+		14.SlV: este valor permite generar variación en el grosor de nuestra Fibermesh
+
+
+		15.Revolve Radius: permite hacer profusión de Fibermesh volcado sobre la mesh
+
+
+		16.Revolve Rate: permite indicar la cantidad ó frecuencia de prosución de revolve
+
+
+		17.ReV: permite indicar variación en la cantidad frecuencia de profusición sobre revolve
+
+
+		18.Twist: permite hacer torción en la Fibermesh
+
+
+		19.TwV: permite indicar variación en la torción en la Fibermesh
+
+
+		20.Gravity: permite indicar el comportamiento de grabedad en la Fibermesh, tanto en valores positivos 
+
+		como negativos
+
+
+		21.NoV: permite indicar variación aplicada en la gravedad a las Fibermesh
+
+
+		22.HTangent: permite cambiar la dirección de los normales de de la mesh en la orientación horizontal
+
+
+		23.HtV_ permite indicar variación en la dirección de las normales de la mesh
+
+
+		24.VTangent: permite cambiar la dirección de las normales de la mesh en la orientación verical
+
+
+		25.VtV: permite indicar variación en la dirección de las normales de lamesh
+
+
+		26.Clumps: permite ajustar un valor abundanción ó disminución de Fibermesh
+
+
+		27.ClV. permite indicar un valor de variación de la abundanción y disminución de Fibermesh
+
+
+		28.Color Profile: permite indicar en un curva la interpolación y porcenajes de color entre el Roots 
+
+		y las Tips de Fibermesh
+
+
+		29.BColor: permite seleccionar un color de base ó Roots e indicar un calor exponencial del mismo
+
+ 
+		30.BcV: permite indicar un valor de variación para el color de base ó roots
+
+
+		31.TColor: permite seleccionar un calor para la entensión de la longitud de la Fibermesh e indicar 
+
+		un valor exponencial
+
+
+		32.TcV: permite indicar un valor de variación para el color de la extensión de la Fibermesh
+
+
+		33.Maz Size: permite ajustar una textura perqueña al tamaño requerido para usar una textura para 
+
+		Fibermesh
+
+
+		34.Ht: permite indicar la cantidad de H-Titles que será duplicada ó remuestreada la textura  
+
+		en horizontal al ser usada en Fibermesh
+
+
+		35.Vt: permite indicar la cantidad de V-Titles que será duplicada ó remuestreada la textura  
+
+		en vertical al ser usada en Fibermesh
+
+
+		36.Transparent: permite activar las opciones de transparencias de las texturas para su uso como 
+
+		parcialmente ne alphas
+
+
+		37.Antialiased: permite activar las opciones de suavizado de texturas
+
+
+		38.Profile: permite indicar la cantidad de polígonos con los que son construidos cada fibra, así, 
+
+		serán planos triangulares, cuadrados, otros
+
+
+		39.Segments: permite indicar la cantidad de segmentos en loops de dividen cada fibra de la fibermesh 
+
+		que oermiten la aleatoriedad y acabados
+
+
+		40.Morph Target Guided: esta opción permite aplicar fibras tomando en cuenta los patrones de edición 
+
+		de Morph Target
+
+
+		40.BPR Setting/RootAniso: estas opciones de anisotropics permiten ajustar los normals de la raíz 
+
+		de la mesh resultante de Fibermesh para una myor sombre, reflexión, otros
+
+
+		41.BPR Setting/TipAniso: estas opciones de anisotropics permiten ajustar los normals de la extesión 
+
+		de la mesh resultante de Fibermesh para una myor sombre, reflexión, otros
+
+
+		42.BPR Setting/SubDiv: permite indicar la cantidad de subdivión Smooothhness ó suavizado a cada fibra
+
+		mejorando la transición entre sis segmentos
+
+
+		43.BPR Setting/Sides: permite indicar la cantidad de subdiviones que componen cada fibra, si se 
+
+		renderizará cada fibran 2 - 3 - 4 -5 lados
+
+
+		44.BPR Setting/Radius: permite indicar el grosor ó radio de cada fibra de Fibermesh
+
+
+
+	para poder editar y modificar la fibras individualmente a través del uso de brushes debemos activar el preview
+
+	render para ésto le damos (Acept): Create a New SubTool form 3D Fibers
+
+
+	si en el área donde se aplicó el Fibermesh a través de un máscara también habiamos creado en ésta área polygroups 
+
+	podriamos también en este caso, asignar la Fibermesh creada a los poligrupos
+
+
+	que están en la misma ubicación que la máscara que se usó para crear la Fibermesh.
+
+		1.para ésto debemos elimar la máscara de la mesh con este procedimiento para que no sea eliminado 
+
+		el previw de Fibermesh, vamos al Menú/Tool/Masking/Clear
+
+
+		2.luego le damos Acept, y creamos una sub-tool de preview de render, así ésta se segmentará como la 
+
+		disposición de los poligroups y sus propiedades como color y otros
+
+
+	Luego de creado el Fibermesh, la subTool, creada podria desenmascararla si esta emascarada y oculpar parte 
+
+	de la geometría/hair, para así, dividirla en diferente Polygroups, shortcut (Control+W)
+
+
+	de esta manera podríamos tener un mayor manejo de la geometría, cabello, hair ó fibra
+
+
+	a la hora de la edición también podria mover ó despegar las raices y hasta mover toda "cepa", 
+
+	de cabello/hair/fiber, para esto debemos desactivas la opción de automasking fibermesh, yendo ha:
+
+
+	"Brush/Auto Masking/Auto Mask Fibermesh", ó su shortcut "Shift+F2", ó el menú/draw, shortcut "Alt+B"
+
+ 

@@ -1,0 +1,38 @@
+
+
+EXTRAER GEOMETRÍA
+
+
+1.duplicar la sub-herramienta
+
+
+2.aumentar el level de subdivision a 5
+
+
+3.seleccionar por máscaras, polygroups ó por objetos visibles el área a extraer
+
+
+4.aplicar herramientas de subtools extract ó aplit; sea por polygroups, mascara ó visible
+
+
+
+	Criterios de Extract:
+
+
+		1.S smt (smoothness): suavisa y repliega la geometría eliminando el desalle de la maya y disminuyendo 
+
+		el tamaño
+
+
+		2.Thickness: es el grosor ó espesos que tendrá la maya extraida
+
+
+		3.TConrner: al activarse permite la creación de triángulos en las extraciones
+
+
+		4.TBord: al activarse contempla los bordes de la maya inicial y los conserva en la creación la maya 
+
+		extraida
+
+
+		5.Bouble: al activarse crea una geometría con polígonos en ambas caras del espesor de la maya

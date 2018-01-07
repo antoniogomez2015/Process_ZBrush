@@ -1,0 +1,55 @@
+
+
+Convertir ZSketch, a Polygons:
+______________________________
+
+
+
+Unified Skin Panel:
+___________________
+
+
+	
+	_Preview:
+
+		_esta opción nos permite tener una visualización
+
+
+	_Sdiv:
+
+		_esta opción nos permite agregar niveles de sub-división temporar (no es recomendable utilizar esta opción)
+
+
+	_Resolution:
+
+		_esta opción determina la resolución final de la polymesh, resultante: 16-32-64-128...
+
+
+	_Smooth:
+
+		_esta opción permite suavizar la polymesh, resultante
+
+
+	_Polish Surface:
+
+		_esta opción permite hacer un suavisado de la topología de forma estilizante
+
+
+	_Border:
+
+		_esta opción va de la mano con la opción "polish surface", ya que la opción "border", indica
+
+		la capacidad de representar el detalle de topología representada
+
+
+	_Allow Tri:
+
+		_esta opción permite la creación de triángulos en la polymesh, resultante
+
+
+	_Make Unified Skin:
+
+		_esta opción permite renderizar la polymesh, resultante
+
+
+

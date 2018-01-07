@@ -1,0 +1,9 @@
+
+
+RIGGINS MESHESH
+
+	1.con la mesh a la que queremos realizar el rigging le Append una ZSphere, ésta ZSphere, la escalamos y la centramos
+	2.emulamos la forma de la mesh, creando extensiones de ZSpheres en relación a las articulaciones ó arquetipo de nuestra mesh
+	3.luego vamos al menu Tool/Riggins/mesh, y cargamos nuestra mesh cargandola (load) y aplicar el rigging ó huesos que creamos
+	4.ahora ocultamos las copias de las mesh copiadas, y para mover el rigging vamos al menú Tool/Riggings/Bind Mesh, y lo activamos
+	5.ya activado el Bind mesh del menu Riggins, procedemos a mover los "Huesos", ó ZSpheres como articulaciones y se modeverá junto la mesh

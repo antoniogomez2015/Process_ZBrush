@@ -1,0 +1,37 @@
+
+
+Tools/Geometry/ZRemesher
+
+	1_target polygons count: donde "1", equivale a "1000", poligonos
+
+	2_half: es un estandar que nos dice que dejará solo la mitad de los poligonos existentes en la maya en cuestión
+
+	3_same: es un estandar que nos dice que dejará algunos en relación a un tercio de los poligonos existentes en la maya en cuestión
+
+	4_doble: es un estandar que nos dice que duplicará ha el doble los poligonos existentes en la maya en cuestión
+
+	5_adapt: quiere decir que hará un proceso adaptativo en relación de la complejidad de las partes del motivo, para variar la resolución entre las partes 
+
+	y los poligonos resultantes (cantidad de poligonos resultantes no es determinada)
+
+	6_adaptiveSize: aquí indicamos el porcentaje ó fuerza del criterio para el proceso de conversión de la geometría de forma adaptativa
+
+	7_curve strength: aquí indicamos el porcentaje ó fuerza del criterio para el proceso de la herramienta/tool, "ZRemesher Guide", menú Shift+I
+
+	8_freezeBoder: indica que contemple los "border", de la geometría a la hora de hacer la conversión de la misma
+
+	9_freeGroup: indica que contemple los "Group", de la geometría a la hora de hacer la conversión de la misma
+
+	10_keepGroups: indica que "guarde", los "groups", de la geometría a la hora de hacer la conversión de la misma
+
+	11_use polypaint: permite contemplar la aplicación del "polypaint", para criterios de densidad de la geometría resultante del proceso
+
+	12_colorDensity: permite indicar la fuerza ó influencia que tendrá el color en la modificación de la geometría resultante
+
+	13_polypaint: 
+
+		13.1_aplicar color "Rojo", será comtemplado como un área compleja a la cuál se le agregará más geometría que la resto
+
+		13.2_aplicar color "Blue", será comtemplado como un área poco compleja a la cuál se le agregará poca geometría
+
+		13.3_aplicar color "blanco/ninguno", será comtemplado como un área indeterminada a la cuál se le agregará geometría con un criterio general

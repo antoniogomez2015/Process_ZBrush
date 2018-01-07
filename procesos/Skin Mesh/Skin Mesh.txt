@@ -1,0 +1,12 @@
+
+
+
+SKIN MESH
+
+	1.para poder editar y utilizar los arquetipos que hemos creado tanto de ZSpheres como de ZSketches debemos aplicar Adaptative Skin
+	
+	Creiterios de Adaptative Skin
+		1.Density: ésto contempla el level ó la cantidad de geometría poligonal de la maya resultante
+		2.G Radial: contempla la cantidad de geometría máxima ó mínima global conservando la forma del arquetipo
+		3.Max Twist: configura el paralelismo y contiguidad de los poligonos permitiendo torciones en la maya ó nó, "0", no permite torción
+		4.Proximity: configura la capacidad ó cantidad del detalle en partes donde hay más ZSpheres como manos, pies, otros, en relación a la demas mesh resultante		

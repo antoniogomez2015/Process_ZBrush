@@ -1,0 +1,29 @@
+
+
+MICROMESH
+
+	
+	con la herramienta microhesm podemos modular una mesh dentro otra mesh o Fibermesh, haciendo unso de máscaras 
+
+	y poligrupos
+
+
+		1.creamos la forma de la mesh a modular con Micromesh
+
+
+		2.seleccionamos y activamos la mesh o Fibermesh que queremos usar como entorno modulador, con la opción 
+
+		de aplicarle máscaras y poligrupos
+
+
+		3.ahora vamos a Menú/Tool/Geometry/Modify Topology/MicroMesh, y seleccionamos la mesh a modular
+
+
+		4.leugo activamos las opciones de draw Micromesh en las opciones de render, vamos 
+
+		al Menu/Render/Render Propieties/Draw Micromesh
+
+
+		5.para ver los resultados de render accionamos el comando Shift+R
+
+	

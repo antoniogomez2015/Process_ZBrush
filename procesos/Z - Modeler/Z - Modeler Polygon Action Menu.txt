@@ -1,0 +1,488 @@
+
+
+
+Z - Modeler Workflow Digital Tutors
+
+
+	POLYGON ACTIONS
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Target Sectión:
+_______________
+
+
+	1_Single poly:
+
+		_esta opción permite tener acción sólo en una sola face, ó "mouse-over-face" 
+
+
+	2_All Plygons:
+
+		_esta opción permite tener acción en todos las faces, ó "mouse-over(All)-face" 
+
+
+	3_All Quads:
+
+		_esta opción permite tener acción en todas las faces "Quads", ó "mouse-over(All)-face"
+
+	
+	4_All Triangles:
+
+		_esta opción permite tener acción en todas las faces "Triangles", ó "mouse-over(All)-face"
+
+
+	5_Behind:
+
+		_
+
+	6_Behind & Polygroup:
+
+		_
+
+
+	7_Brush Radius:
+
+		_
+
+
+	8_Curve Island:
+
+		_
+
+
+	9_Facing Front All:
+
+		_
+
+
+	10_Facing Front Island:
+
+		_
+
+	
+	11_Flat & Polygroup:
+
+		_
+
+
+	12_Flat Border:
+
+		_
+
+
+	13_Flat Inner:
+
+		_
+
+		
+	14_Flat Island:
+
+		_esta opción permite hacer extrusiones por grupo de normales iguales en un plano de visión 
+
+		sin importar si pertenecen al mismo polygroups, ó no, esto es especialmente útil para hacer
+
+		extrusiones rápidas en planos de construcción complejos donde tenemos un diseño bien marcado
+
+
+	15_Infront:
+
+		_
+
+
+	16_Infront & Polygroup:
+
+		_
+
+
+	17_Island:
+
+		_
+
+
+	18_Polygroup All:
+
+		_
+
+
+	19_Polygroup Border:
+
+		_
+
+	
+	20_Polygroup Inner:
+
+		_
+
+
+	21_Polygroup Island:
+
+		_esta opción permite hacer extrusiones de un conjunto de polígonos aislados como un grupo
+
+		sin importar la complejidad de los mismos, esto es especialmente útil para hacer extrusiones
+
+		por regines de grupos de polygons, que van quedando separados en islas o regiones sin la
+
+		necesidad de tener que crear nuevos polygroups, para hacer extrusiones
+
+	
+	22_Polyloop:
+
+		_esta opción permite crear tanto "Polygroups" como también en otras opciones "Q-Mesh",
+
+		también, extrusiones sobre los polygrups, creados en un sólo paso
+
+
+	23_Polyloop & Flat:
+
+		_
+
+
+	24_Polyloop & Polygroup:
+
+		_
+	
+
+
+	
+------------------------------------------------------------------------------------------------	
+
+
+
+------------------------------------------------------------------------------------------------
+
+
+Z - Modeler Polygon Actions Options:
+____________________________________
+
+
+
+	1_Add To Curve:
+
+		_
+
+
+	2_Bevel:
+
+		_
+
+
+	3_Bridge:
+
+		_esta opción nos permite hacer conexiones de sub-elementos de diferentes polígonos
+
+		a través, de diferentes criterios
+
+		
+
+		funciones generales:
+		____________________
+
+
+		_permite generar transiciones y arcos de extrusión "Bridge", en faces, contiguas
+
+
+		_permite hacer "Bridge", ó puente de forma directa sin sub-divisiones entre dos faces, 
+
+		separadas ó distantes entre sí, más en la misma sub-tool
+
+
+
+		Target:
+		_______
+
+
+		_Conected Polys:
+
+			_esta opción permite accionar a dos polygons/faces, contiguos
+
+
+		_Two Polys:
+
+			_esta opción permite accionar a dos polygons/faces, separados ó distantes
+
+			el uno del otro dentro del mismo sub-tool
+
+
+		_Bezier Curve:
+
+			_esta opción proyecta una curva tipo bezier, entre ambas faces, respectivas,
+
+			en relación al modificador seleccionado
+
+
+		_Spline:
+
+			_esta opción proyecta una curva tipo spline-curve, entre ambas faces, respectivas,
+
+			en relación al modificador seleccionado
+
+
+		Circle:
+
+			_esta opción proyecta un círculo entre ambas faces, respectivas, en relación 
+
+			al modificador seleccionado
+
+
+		_Arcs_
+
+			_esta opción proyecta un arco entre ambas faces, respectivas, en relación 
+
+			al modificador seleccionado
+
+
+		_Arcs And Line:
+
+			_esta opción proyecta un arco y línea entre ambas faces, respectivas, en relación 
+
+			al modificador seleccionado
+
+
+		_Round Corners:
+
+			_esta opción proyecta un rectángulo con los ángulos redondeados entre ambas faces, 
+
+			respectivas, en relación al modificador seleccionado
+
+
+		_Small Round Corners:
+
+			_esta opción proyecta un rectángulo con los ángulos redondeados pequeños entre 
+
+			ambas faces, respectivas, en relación al modificador seleccionado
+
+
+		_Tight Round Corners:
+
+			_esta opción proyecta un rectángulo con los ángulos redondeados pequeños entre 
+
+			ambas faces, respectivas, en relación al modificador seleccionado
+
+
+		_Straight Lines:
+
+			_esta opción proyecta un rectángulo con los ángulos redondeados pequeños entre 
+
+			ambas faces, respectivas, en relación al modificador seleccionado
+
+
+
+		Modifiers:
+		__________
+
+
+		_Interactive Curvature:
+
+			_especifica es grado de interactividad de la curva (capacidad de generar una curva)
+
+
+		_Interactive Resolution:
+
+			_capacidad ó resolución de la curva generada en divisiones
+
+
+		_Align To Tangent:
+
+			_alineación a la tangente ó posición de las faces originales (esto hace que se
+
+			proyecte las faces, generadas sobre las faces, existentes evitando la generación
+
+			de una curva con volúmen ó proyección en el espacio)
+
+
+		_Align To Normals:
+
+			_alineación a las normales ó dirección de las faces, originales (esto hace que se
+
+			proyecte las faces, generadas sobre la dirección de las faces, existentes proyectando
+
+			así, una curva con volúmen ó proyección en el espacio)
+
+
+		_Variable Width:
+
+			_ancho de la curvatura generada variable
+
+
+		_Constant Width:
+
+			_ancho de la curvatura generada constante
+
+
+		_NonSymmetrical:
+
+			_curva generada  asimétrica
+
+
+		_Symmetrical:
+
+			_curva generada simétrica
+
+
+		_Polygroup Rows:
+
+			_generación de polygroups, por series de faces generadas
+
+
+		_Polygroup Flat:
+
+			_generación de polygroups, por grupos de faces, en posición similares
+
+
+		_Tris&Quads Sides Loop:
+
+			_esta opción permite la generación trids, y quads, en la generación ó proyección
+
+
+		_Triangles Sides:
+
+			_esta opción permite la generación trids, en la generación ó proyección
+
+
+		_Quads Sides:
+
+			_esta opción permite la generación de quads, en la generación ó proyección
+
+
+
+	4_Crease:
+
+		_
+
+
+	5_Delete:
+
+		_
+
+
+	6_Do Nothing:
+
+		_
+
+
+	7_Equalize:
+
+		_
+
+
+	8_Extrude:
+
+		_
+
+
+	9_Flip Daces:
+
+		_
+
+
+	10_Inflate:
+
+		_
+
+
+	11_Insert NanoMesh:
+
+		_
+
+
+	12_Insert Point:
+
+		_
+
+
+	13_Insert Polylops:
+
+		_
+
+
+	14_Insert:
+
+		_
+
+
+	15_Mask:
+
+		_
+
+
+	16_Mesh To Brush:
+
+		_
+
+
+	17_Move:
+
+		_
+
+
+	18_Polygroup:
+
+		_esta opción permite la posibilidad de no extruir si no, de crear polygroups, en diferentes
+
+		criterios como por ejemplo "target-(Polyloop)"
+
+
+	19_Q Mesh:
+
+		_esta es la modalidad que permite hacer extrusiones sumando la geometría más contigua
+
+		tomando en cuenta los sub-elementos vertex, edges y faces, más las opciones de snaps,
+
+		esta opción es especialmente útil para crear formas complejas ya que permite incrementar
+
+		las formas existentes y crear otras como un todo
+
+
+		_también, en sentido contrario ó en oposición al sentido de la extrusión esta opción
+
+		permite eliminar ó suprimir extrusiones existentes, esta opción es especialmente útil
+
+		para refinar modelados y extrusiones previas existentes
+
+
+	20_Scale:
+
+		_
+
+
+	21_Spherize:
+
+		_
+
+
+	22_Spin:
+
+		_
+
+
+	23_Spin Edges:
+
+		_
+
+
+	24_Split:
+
+		_
+
+
+	25_Transpose:
+
+		_
+
+
+	26_Unweld:
+
+		_
+
+
+	27_ZModeler Modifiers:
+
+		_
+
+
+

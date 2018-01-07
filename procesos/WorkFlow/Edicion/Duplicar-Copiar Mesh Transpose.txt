@@ -1,0 +1,5 @@
+
+
+duplicar ó copiar mesh
+		1.para duplicar ó clonar mesh dentro la misma tool debemos activar el modo de transpose, su comando es "W"
+		2.para hacer la acción de duplicado proyectamos el transpose pulsamos Control+Draw en el sentido que deseamos crear la copia ó clón	

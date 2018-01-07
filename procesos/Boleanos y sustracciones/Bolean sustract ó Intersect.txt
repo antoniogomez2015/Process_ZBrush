@@ -1,0 +1,39 @@
+
+
+
+
+
+	Bolean sustract ó Intersect:
+	____________________________
+
+
+
+		1.la mesh ó forma resultante debe estar sobre las formas que harán sustracción en el panel 
+
+		sub-tool
+
+
+		2.la mesh ó forma resultante debe estar en modo Dynamesh
+
+
+		3.las mesh ó formas que harán la sustracción deben intervenir ó intersertarse con la forma 
+
+		resultante 
+
+	
+		4.la mesh ó formas que harán de sustracción la colocaremos en modo "Sustract ó Intersect", 
+
+		en el panel de sub-tool
+
+
+		5.con la mesh resultante seleccionada vamos al menú y aplicamos Tool/Subtool/Marge/Marge Down
+
+
+		6.con la mesh resultante seleccionada proyectamos Dynamesh haciendo click+drag, sobre el camvas,
+
+		así se hará una sustracción resultante entre ambas sub-tools
+
+
+
+
+

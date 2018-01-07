@@ -1,0 +1,20 @@
+
+
+(proyectar una mesh, de alta resolución en una mesh hecha en dynamesh, en una mesh, de baja resolución con uvs para su uso en producción)
+
+Tutorial: ZBrush ZProject Brush; https://www.youtube.com/watch?v=2KzSM9aiqMQ 
+
+
+1_colocamos la mesh, de alta resolución como superior en el panel de sub_tools
+
+2_colocamos la mesh, en baja resolución como inferior ó posterior en el panel de sub_tool
+
+3_a la mesh, en baja resolución le aumentamos los niveles de sub_división, yendo la panel "Tool/Geometry", su shortcut (Control+D), 
+
+hasta un nivel de sub_división recomendado entre "7 a 9"
+
+4_luego debemos seleccionar la "Brush/ZProyect", shortcut de la brush "B", luego "Z", luego "P"
+
+5_por último, como la mesh, de alta resolución ó superior seleccionada procedemos a pintar ó proyectar a través de la Brush "ZProyect",
+
+teniendo en cuanta el "Size", "Intensity", Focal shift, básicos como cualquier brush

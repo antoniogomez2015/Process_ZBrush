@@ -1,0 +1,7 @@
+
+
+EXPORTAR
+	1.debemos colocar el level  de resolución de la mesh que queremos exportar como level mínimo de la herramienta
+	2.la mesh deberá tener creados sus UVs, textura polypaint y normal map si así lo requerimos para postpoducción 
+	3.las normales de los polígonos exportados de Zbrush apuntan hacia la cámara de zbrush al momento de ser exportados
+	por ende hay que ajustarlos ó suavisarlos en la aplicación de postpoducción

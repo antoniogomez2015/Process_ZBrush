@@ -1,0 +1,230 @@
+
+
+ZSketch WorkFlow
+
+
+
+Paneles:
+________
+
+
+	_ZSketch Panel: Shift + Z
+
+
+	_Zsph Panel: Alt + Z
+
+
+	_Skin: Alt2 + K
+
+
+----------------------------------------------------------------------------------------------
+
+MODOS:
+
+
+	_Edit ZSketch: "Shift + A"
+
+
+	_Preview Mesh Result: "A"
+
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+
+Tools:
+
+
+	_ZSketch 1, 2, y 3:
+
+		_estas brushes, nos permite hacer sketches, sobre la superficie mesh, proxi, así, como también,
+
+		sobre la zspheres, y, como característica principal estas se siñen el al objeto ó mesh, proxi
+		
+
+	_Armature:
+
+		_esta herramienta/brush es idéntica a las "Sketch 1, 2, y 3", más esta no se siñe al objeto 
+
+		ó mesh, proxi
+
+
+	_Budge:
+
+		_esta herramineta/brush, permite inflar/desinflar, los sketches, a los cuales se le aplica
+
+
+	_Smooth:
+
+		_esta herramienta/brush, permite suavisar ó redimensionar las sketches, creados
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+Workflow:
+
+
+
+	_primero agregamos a la escena un "Zsphere", y la colocamos dentro del modelo "no importa la posición
+
+	en la cuál, la coloquemos"
+
+
+
+	_Creación de Sketches / ZSketch 1, 2, y 3 ó Amature:
+	____________________________________________________	
+
+
+		_para crear Sketches, sobre un modelo proxi, el modelo proxi, no debe estar en modo "Ghosh" "L/L"
+
+
+		_el modo de creación debe estar en "Draw", shortcut "Q"
+
+
+		_así, podremos hacer "mouse click and drag", sobre la superficie del modelo con un tool "ZSketch 1,2,3",
+
+		ó "Armature"
+
+	
+		_para que los "Sketches", creados sobre el modelo no queden dentro del modelo proxi, (a menos que así
+
+		lo requiramos), debemos ir a las opciones de "Brush/Depth/Imbed", y colocar su valor en mínimo en "0",
+
+		ó, también disponemos el panel "Pin/Pivot Pencil/", "Shortcut: Alt + B"
+
+
+		_para suavizar lo rectificar los sketches, creamos podemos hacer "smoother", sobre estos haciendo
+
+		"shift + mouse left click and drag", ó tamibén podemos al menú "ZSketch Panel: Shift + Z", y seleccionar
+
+		cualquiera de las "Smooth - Tools"
+
+
+		_para editar "Mover", "Scale", "Rotate", disponemos de los shortcuts "W/E/R", y para volver a crear
+
+		más sketchs, disponemos del shortcut "Q"
+
+
+		
+
+
+
+	_Edit SKetches:
+	_______________
+
+
+		_todos los sketches, creados sean con las tools, "sketches 1,2, y 3", ó con "armature", éstos pueden
+
+		ser editados ó modificados pos su creación 
+
+
+		_así, podremos "Moverlos", "Scalarlor" "Rotarlos (esta opción es posible más no tiene mucho sentido)":
+
+
+			_Move: "W" (hacemos "mouse left click and drag"), sobre el sketch, deseado y lo movemos
+
+
+			_Scale: "S" (hacemos "mouse left click and drag"), sobre el sketch, deseado y lo escalamos
+
+
+			_Rotate: "R" (hacemos "mouse left click and drag"), sobre el sketch, deseado y lo rotamos
+
+
+
+	DETALLES:
+
+	
+		_para mover los sketches, creados es altamente conveniente hacer máscaras de selección sobre los
+
+		sketches, no deseados
+
+		
+			_primero debemos estar en el modo de edición de "Draw", shortcut "Q"
+
+
+			_luego, para aislar el skethch, deseado para su luego enmascaración debemos hacer
+
+			"Control + Shift and mouse left click", sobre el sketch, deseado así, éste sketch,
+
+			será aislado de los demás sketches
+
+
+			_ahora con el sketch, deseado aislado podremos enmarcararlo, para esto hacemos
+
+			"control + mouse left click", sobre una parte del canvas que esté vacía
+
+
+			_posteriormente debemos de salir del modo de "isolate", ó de aislamiento del sketch,
+
+			deseado, para esto volvemos ha hcer "control + shift and mouse left click", así, se
+
+			volverán a ver todos los sketches, con la diferencia que el sketch, deseado estará 
+
+			enmascarado
+
+
+			_por último, debemos invertir el enmascaramiento para esto, hacermos 
+
+			"control + mouse left click", sobre un área vacía en el canvas, así, la máscara
+
+			será invertida dejando sin enmascaras sólo el sketch, deseado el cuál, estará
+
+			ya listo para su edición, evitando la deformación de los sketches, contiguos
+
+
+		_otra forma de enmarcartar sketches, es hacer directamente "control + mouse left click", 
+
+		sobre las áreas de sketches, deseados
+
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+Delete / Deshacer SKetchs:
+
+
+	_también tenemos la posibilidad de eliminar ó deshacer partes de uno ó varios sketches, creados
+
+	previamente para aumentar así, la capacidad de edición de los sketches, creados
+
+
+		_podemos hacer "alt + mouse left click and drag", sober un extremo de un sketch, así,
+
+		podremos ir borrante parte de este de forma progresiva en relación a nuestra acción sobre él
+
+
+		_también podemos hacer una margnación de todos los sketches, creados ó al menos los nos 
+
+		enmascarados, esto, hacemos "control + shift + mouse left click and drag", para así, crear
+
+		una "curve/spline", (recta), más para agregar más puntos de control sobre la curva podemos ir 
+
+		agregando puntos de control haciendo ó aplicando "Alt", en los lugares de referencia donde 
+
+		deseamos que se agregen más punto de control ó de flexión en la curva resultante 
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+Mesh Resolution Preview:
+
+
+	_podemos graduar la resolución que interpretará la morflogía que hemos creado a través, de las sketchs,
+
+	de esta manera podemos para de una representación de caso el bounding body, a baja resolución hasta algo 
+
+	totalmente detallado y en alta resolución:
+
+
+		_primero seleccionamos el sistema de sketches, y con este seleccionamos vamos ha "Tool/Unified Skin/",
+
+		en el cuál, debemos aumentar ó bajar el valor de "Resolution", en base a nuestro requerimiento
+
