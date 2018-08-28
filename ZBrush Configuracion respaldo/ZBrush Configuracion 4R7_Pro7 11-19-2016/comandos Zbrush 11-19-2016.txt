@@ -1,0 +1,388 @@
+
+
+abrir y cerrar lightbox: coma ","
+
+minimizar y maximizar Zbrush: Window+D
+
+guardar configuración de la interface: Shift+Control+Alt+I
+
+almacenar la configuración de la interface deseada por la de defecto: Control+Shift+I
+
+para desplegar todos los sub-panles de un panel: Control+Shift+Left+Click
+
+convertir máscara en poligrupo: Alt+m
+
+tools: F1/ menu tools: shit+F1
+
+brush: F2/ menu bursh shit +F2
+
+strokes: F3/ menu strokes shit +F3
+
+alphas: F4/ menu alphas shit +F4
+
+texturas: F5/ menu texturas shit +F5
+
+aplicar material: F6/ menu material shit +F6
+
+Fill Color: Alt2+C
+
+Fill Layer Control+F
+
+Crease: Control+,
+
+Edge Loops: Alt+,
+
+Group Loops: Shift+,
+
+Panel Loops: Control+Shift+,
+
+Mask Curve: Shift+Q
+
+Mask Circle: Alt+Q
+
+Mask Square: Control+Q
+
+Mask Pen: Control+Shift+Q
+
+Mask Lasso: Alt+Shift+Q
+
+Mask Curve Pen: Control+Alt+Q
+
+Square Brush: Control+Shift+1
+
+Center Brush: Control+Shift+2
+
+Slice Curve: Shift+C
+
+Slice Circle: Alt+C
+
+Slice Square: Control+C
+
+Clip Curve: Shift+<>
+
+Clip circle: Alt+<>
+
+Clip square: Control+<>
+
+Trim Curve: Shift+X
+
+Trim Circle: Alt+X
+
+Trim Square: Control+X
+
+Trim Lasso: Control+Shift+X
+
+Criese Curve: Shift+V
+
+brush curve standard: Shift+1
+
+brush curve editable: shift+2
+
+brush curve pinch: shift+3
+
+brush displace curve: Shift+4
+
+brush move curve: Shift+5
+
+brush move topological: shift+6
+
+brush move elastic: shift+7
+
+delect hiden: Alt+8
+
+Close holes: Alt+9
+
+make polymesh 3d: Alt2+1
+
+rename: Alt2+2
+
+duplicate: Alt2+3
+
+Delete: Alt2+4
+
+Apend: Alt2+5
+
+insert: Alt2+6
+
+marge down: alt2+7
+
+marge similar: Alt2+8
+
+marge visible: Alt2+9
+
+Z-Modeler: Control + Shift + Z
+
+Dynamic Subdiv Apply: Control + Shift + S
+
+Dynamic Subdiv: D / Shift + D
+
+geometry HD: Control + Shift + Alt + S
+
+shadowBox: Control + Shift + H
+
+LaxyMouse: F12
+
+cuve mode: Alt+1
+
+curve frame: Alt+2
+
+playlast: Alt+3
+
+repeat active: Alt+4
+
+backfacemode: Alt+5
+
+backtrack: Alt+6
+
+topological masking: Alt+7
+
+Transparente Reference: Shift+R
+
+menu start:Alt2+I
+
+menu documento: F7
+
+menu draw: F8
+
+menu transform: F9
+
+menu edit/history: F11
+
+Dynamic Subdiv: Dynamic Control+Shift+S
+
+menu subtool: alt1+s
+
+menu sub-tools: Alt+F
+
+menu geometry: alt1+e
+
+menu int (insertmesh): Alt + I
+
+menu model: alt1+r
+
+menu ZSkecth Brush: Shift+Z
+
+menu ZSketch Rigging Topology: Alt+Z
+
+menu ZAppLink: Control + Shift + Alt + Z
+
+menu fiberMesh: Alt2 + F
+
+menu draw pro: alt+b
+
+menu modify: alt+d
+
+menu general: alt+g
+
+menu polygroups: alt1+t
+
+menu uvs: alt2+u
+
+menu mesh: Alt2+B
+
+menu polypaint: alt2+p
+
+menu lightbox: alt2+L
+
+menu arrayMesh: Control + Shift + A
+
+menu nanoMesh: Alt + N
+
+menu microMesh: Shift + N
+
+menu rig-topology: Shift + T
+
+menu layers: Control2 + Shift2 + L
+
+Activar Spotlight: Shift+L
+
+Activar Opciones de Spotlight: Z
+
+menu skin: alt2+k
+
+menu mask: alt2+m
+
+menu brush model: control+m
+
+menu brush edit: control+e
+
+menu brush intervensión: control+i
+
+menu brush hair: control+h
+
+menu brush curvas: control+Shift+c
+
+menu brush pressts: control+p
+
+menu plugins (P-ing): Alt+O
+
+menu Preview (P-W): Alt+N
+
+menu Maps: Control + Shift + M
+
+menu HD: Shift + H
+
+menu Exp: Control + Shift + E
+
+
+
+
+Pro Brushes: Control + Shift + S
+
+Skin Materials: Control + Shift + A
+
+
+
+
+
+
+brush standar:1
+
+brush mode:2
+
+brush pinch:3
+
+brush flatten:4
+
+brush magnify:5
+
+brush displace:6
+
+brush elastic:7
+
+brush noise:8
+
+brush clayBuildup:9
+
+brush slash3:0
+
+display double: ¿
+
+visibility glow: +
+
+visibility shrink: - ó Control+Shift+S
+
+visibility outer ring: Alt2+(+)
+
+brushes: b
+
+swtchColor:v
+
+neutralizar color:c
+
+subtools:n
+
+subtool solo:k
+
+subtool transparente/ghost:L (Alt+G)
+
+view perspective:p
+
+floor:shift+p
+
+fit a view:f
+
+wareframe mesh: shft+f
+
+draw size:s
+
+Z intensity:u
+
+focal shift:o
+
+menu draw lightbox: spacebar
+
+BRadius/Polygroups: control+spacebar
+
+maximizar screen_tab/mayus
+
+nuvo gruopo y color: control+w
+
+aumentar geometria: control+d
+
+disminuir geometria: shift+d
+
+desplegar y plegar menu el inferior: h
+
+modo edit: t
+
+modo draw: q
+
+modo move: w
+
+modo scale: e
+
+modo rotate: r
+
+layer clear: control+n
+
+paneo: alt1+draw
+
+orbir: leftClick+draw
+
+zoom: control+rightClick+draw
+
+camaras: shift+draw
+
+aplicar máscaras Square: Control+1
+
+aplicar máscaras Center: Control+2
+
+aplicar acciones de Clip de recorte y Trim Square: Control+Shift+Q
+
+aplicar acciones de Clip de recorte y Trim Center: Control+Shift+W
+
+
+
+
+
+
+
+------------------------------
+
+hacer comando para el menu rigging
+
+hacer el menu visibility/disokay properties
+
+
+CONFIGURAR INTERFACE:
+NOTA: al cargar configuraciones de interface los paneles se cargan al revés, por ende hay que invertir su orden manualmente
+
+Crear paneles y shortcuts:
+
+1.enable en preferencias: Enable Customize
+
+2.crear un nuevo menu: Custom UI/Create New Menu
+
+3.para crear sub-paletas: draw el botón "Custom SubPalette", con Alt+Control en el nombre del menu deseado
+
+4.para personalizar sub-paletas con herramientas y opciones: draw la herramienta a la subpaleta con Alt+Control
+
+5.personalizar título del nombre de la subpaleta: Alt+Control sobre la etiqueta del título
+
+
+CREAR HOTKEYS COMANDOS PARA PALETAS Y HERRAMIENTAS:
+
+1.la option Enable Customize debe estar desactivada
+
+2.sobre la etiqueta del nombre de la paleta ó herramienta, damos left+click+Alt+Control, luego asignamos el comando por ejemplo: Alt+I
+
+
+ORDEN DE LOS PANELES
+NOTA: los paneles deben agregarse de forma inversa en la configuración, para cuando se reinicie la aplicación éstos se cargarán correctamente
+
+RIGHT:
+Tool - Zplugins - Transform - Document - Render - Movie - Preferences
+
+LEFT:
+Stroke - Alpha - Stencil - Draw - Color - Texture - Material - layer - Light - Picker - Marker - Macro - File - Edit - B-Mod - B Edit - B Init - B Cur - B Hair - B Pres
+
+
+
+
+
+
+
+
+
+
