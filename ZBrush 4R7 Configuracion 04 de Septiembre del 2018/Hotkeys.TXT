@@ -137,6 +137,7 @@
 [PERF,618] // Ctrl+J
 [TRNS,874] // Ctrl+Shift+J
 [EXTER,886] // Ctrl+Shift+V
+[TRANSFORM:GIZMO 3D,884] // Ctrl+Shift+T
 
 
 
