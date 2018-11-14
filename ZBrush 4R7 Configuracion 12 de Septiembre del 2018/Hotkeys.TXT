@@ -124,7 +124,7 @@
 [LAYERS,876] // Ctrl+Shift+L
 [FIBERMESH,1638] // Alt+Ctrl+F
 [MICROMESH,366] // Shift+N
-[B-MODEL,877] // Ctrl+Shift+M
+[TOP,877] // Ctrl+Shift+M
 [B-MODEL2,365] // Shift+M
 [B-PRO1,1145] // Alt+Y
 [PRO BRUSHES,1651] // Alt+Ctrl+S
